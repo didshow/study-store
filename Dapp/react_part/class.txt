@@ -1,0 +1,26 @@
+ IPFS：8080(http)/5001(webui)
+ remixd：65520 (连接本地文件) 
+ react：3001-2
+ express.js 后端：3000 接口：/upload
+ npx hardhat node：8545 (10个账户(remix里))
+ 1.组件
+ 2.JSX => App.js里使用的，可以直接调用html的标签通过 {name}
+ 3.State：内部状态如何使用的？ => useState 返回数组[值]，[方法] :const [state,setState] = useState(初始值)
+ 4.Props：组件之间互相传递数据 => useEffect
+
+1.配置网络
+2.私钥导入账户（2-3个）
+3.设计  / => createNFT, /success => upload successful
+Navbar => UploadImage and UploadSuccess 
+首页(Home) => 展示所有NFT => getAllNFTs
+详情页(NFTDetail) => market.approve() => market.buy(tokenId)\ erc20.approve \ erc20/allowance(owner,spender) \ balanceOf()
+我的 => 展示我的NFT => getMyNFTs => 个人持有 => market.changePrice(tokenId,price) \ market.cancelOrder(tokenId) \ nft.safeTransferFrom(from,to,tokenId) \ nft.tokenURT(tokenId) \ nft.transferFrom(from,to,tokenId)
+nft.balanceOf \ nft.tokenOfOwnerByIndex
+
+Home => NFTCard \ NFTGrid(排列)
+
+MetaData : 存储的数据, title \ description \ image \ 
+
+
+
+

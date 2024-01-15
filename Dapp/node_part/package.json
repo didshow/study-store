@@ -1,0 +1,17 @@
+{
+  "name": "node_part",
+  "version": "1.0.0",
+  "description": "demo project for cbi",
+  "main": "hello.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}
