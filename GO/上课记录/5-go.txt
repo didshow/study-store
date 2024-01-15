@@ -1,0 +1,1878 @@
+﻿
+java
+web(html,js,css)
+
+
+
+chatGPT
+
+AUTO
+
+80%的 
+20%
+
+算法；
+
+
+
+
+刁仁宏
+13438142532
+24215272@qq.com
+
+
+30,70
+
+机考的
+
+
+
+
+考试系统：
+1.后端 ：跟数据库打交道，提供api【接口】    ---go   oj  +mysql+redis[缓存数据库]
+
+
+登录接口,
+输入参数:username,password
+输出ok,username not exist,password error. username or password is error.
+
+select count(*) from user where username ='' and password=''
+
+2.前端  交换展示的页面；  vue   -----react;
+
+人数需求：
+
+前端 2 
+后端 2
+
+
+dapp
+
+开发相关的；
+
+
+
+9-12
+
+上机：周日晚上；
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Go语言基础(第1-2课)
+
+1.变量和常量
+2.基本数据类型
+3.运算符
+4.程序结构
+5.简单代码
+
+
+
+
+
+ 学习一门语言的常规步骤？？？？？
+
+
+ 1.数据类型 
+ 2.定义变量的方法；  
+ 3.初始化 变量、赋值、 算术运算、关系运算；
+ 4.流程控制语句；
+ 5.常用内置函数，，数学函数，sqrt，pow，strlen,strcat
+ 6.代码结构
+ 7.IDE  vscode,golang 
+
+
+  编译型 java，go
+  解释型  html,css   ,js
+ 
+
+
+package main
+
+import "fmt"
+
+func main() {
+    /* Always Hello, World! */
+    fmt.Println("Hello, World!")
+}
+
+
+package main定义了包名。必须在源文件中非注释的第一行指明这个文件属于哪个包。
+package main表示一个可独立执行的程序，每个Go应用程序都包含一个名为main的包
+import "fmt" 告诉编译器程序运行需要用fmt包
+func main()是程序开始执行的函数，main函数是每一个可执行程序所必须包含的，一般来说都是在启动后第一个执行的函数（如果有init()函数则会先执行该函数）。
+{}中"{"不可以单独放一行。
+注释在程序执行时将被忽略。//单行注释，/..../多行注释也叫块注释，不可以嵌套使用，一般用于包的文档描述或注释成块的代码片段。
+fmt.Println(...)将字符串输出到控制台，并在最后自动增加换行字符\n。用fmt.Print("Hello, World!\n")可以得到相同的结果。
+ 
+
+
+
+go 代码执行
+
+让我们来看下如何编写 Go 代码并执行它。步骤如下：
+
+打开编辑器如Sublime2，将以上代码添加到编辑器中。
+
+将以上代码保存为 hello.go
+
+打开命令行，并进入程序文件保存的目录中。
+
+输入命令 go run hello.go 并按回车执行代码。
+
+如果操作正确你将在屏幕上看到 "Hello World!" 字样的输出。
+
+
+
+ 集合了面向过程+面向对象
+
+标识符和关键字；
+default,break,func,struct ,var,for,go
+
+变量的定义：
+
+var 变量名 变量类型
+
+
+ var age int
+ var name string
+ var isOk bool
+
+ var {
+
+      a int
+      b int
+      c int
+      d int
+ }
+
+
+ 变量的初始化
+
+   b=20
+   a="cuit"
+   c=3.4
+
+  var age int = 18
+  var name string = "xiaoming"
+ 
+
+   d=a*b+c
+
+   常量  const
+
+   const pi=3.14
+   const e =2.712
+
+   const{
+     pi=3.31
+     e=2.72
+     g=9.8
+   }
+
+
+  https://www.cnblogs.com/
+  https://www.codeproject.com/
+  
+
+ 
+
+
+Go语言基础(第2课)
+
+2.1go的基本数据类型：
+
+2.2Go语言的数据输入常用方式
+一、fmt包
+1.Scanf
+2.Scanln
+3.Scan
+4.printf
+5.println
+
+二、bufio包
+1.ReadByte
+2.ReadBytes
+3.ReadLine
+4.ReadRune
+5.ReadString
+    
+
+
+
+ 基本数据类型：
+ 1.整型
+ 2.浮点型
+ 3.复数
+ 4.布尔
+ 5.字符串
+
+ 数组、切片，map,channel,
+
+
+ --最终要解决什么？
+
+  用go编写对rdbs的四个操作,add(insert),delete,update,select ;
+  userinfo(userid,username,password,registerAt,status,....,isdelete)
+
+  登录操作：select
+  修改密码：update
+  用户注册：add
+  删除用户：delete //逻辑删除 update
+
+  订单系统：
+
+  加入购物车 ：add
+  外卖下单：add
+  订单送达：update
+  取消订单：update
+  评价： add（增加评价记录)，update(修改订单状态，修改整个店铺的评分)
+
+  //验证： 编写 前端网页；
+   // 直接查看数据库中的数据变化；postman
+
+---完成上述操作，平时100；
+
+
+
+基本数据类型：
+ 1.整型
+ 2.浮点型
+ 3.复数
+ 4.布尔
+ 5.字符串
+
+
+
+ var a int  //int的大小根据操作系统
+ 无符号整型:
+ uint8 :0-255           
+ uint16 :0-65535
+ uint32 :
+ ASCII  a-z,A-Z,0-9 .  @   //正则表达式  2@b
+
+
+
+浮点型：
+
+  float32
+  float64
+
+  math 掌握math后面提供的内置函数.sqrt ，pow(x,y) 
+
+    r*r*r  pow(r,10)
+
+复数 
+
+  var c1 complex  
+  c1 = 1+2i
+
+
+ 布尔值 :  int  0 ,1 
+
+ var b1 bool
+ b1=true
+ b1=false
+
+
+
+
+
+ 作为数据库的主键  guid
+ a7c17f36-dff0-11ed-a752-fa163e9a4130
+ ==32 位 
+
+ replace(str,'-','')
+
+
+
+ sqlserver :newid()
+ mysql     :uuid()
+
+
+ 字符串  utf-8
+
+ var s1 string
+ var s2 string
+
+ s1="hello"
+ s2="成都"
+
+ printf("")
+
+ \n  回车
+ \t  tab
+ \r  回车，返行首
+ \'
+ \"
+ \\ 输出一个 \
+
+ 输出 
+
+
+ D:\wechat\test.go
+
+ 多行字符串？？？
+
+  s1:=`第一行
+  第二行
+  第三行
+  `
+
+  i:=0
+
+
+
+  sdafa|adafa|adafadfa
+
+
+
+  记录常用的 strings提供库函数
+
+
+  编程高手：记忆了很多库函数
+
+ 
+ char  替代的 byte  utf-8
+
+ %c
+
+  a
+  "中"
+
+  输出 ：各种数据类型的输出
+  prinf("%v")
+
+
+  输入的时候 ：
+
+  变量名前加 &
+
+  scanf
+  scanln
+  scan  可以把所有的变量写在一行
+
+  scan(&a,&b,&c,&d)
+  scanln(&a)
+  scanln(&b)
+  scanf("%d %f",&a,&b)
+
+
+  ---课堂实践
+
+  输入三角形的三边，输出三角形的面积；
+
+  s=(a+b+c)/2
+  area=sqrt(s(s-a)(s-b)(s-c))
+
+  3.0
+  4.0
+  5.0
+
+
+  var 
+  {
+    a  float 64
+    b  float 64
+    c  float 64
+  }
+ 
+   a=3.0
+   b=4.0
+   c=5.0
+
+   t:=(a+b+c)/2
+   area:=math.sqrt()
+
+
+
+   总结：
+   go的基本数据类型
+   scanf，printf
+   小例子;
+   ////关注  string,byte  字符和字符串的用法
+   //math.  strings.
+
+
+
+
+
+
+
+
+
+
+
+
+
+rand.Seed(time.Now().Unix()) 
+
+
+
+
+数据类型；
+算术运算、关系运算、逻辑运算
+++ 
++=
+
+====db设计
+答疑：go，工程实践2
+
+go语言经典100例子；
+
+
+
+
+
+
+Go语言基础之流程控制(第3课)
+
+1.if  语句
+2.for(循环结构) 语法解析；
+3.for range(键值循环)
+4.switch case
+
+break;
+continue;
+
+
+
+
+
+
+
+
+
+1.if  语句
+
+if 语句 由一个布尔表达式后紧跟一个或多个语句组成。
+if 语句 后可以使用可选的 else 语句, else 语句中的表达式在布尔表达式为 false 时执行。
+if 或 else if 语句中可嵌入一个或多个 if 或 else if 语句。
+同各类主流语言，不多赘述。但注意，Go 没有三目运算符，所以不支持 ?: 形式的条件判断
+
+--1.{紧跟 布尔表达式
+--2.else不能单起一行
+ 
+  
+   var age int
+   fmt.scanln(&age)
+   if age<18 {
+      fmt.println("...")
+   } else {
+      fmt.println(".....")
+   }
+
+
+ golang条件判断 必须生成一个bool
+ var a bool= true
+ if b==false{
+    fmt.println("dddd")
+ }
+
+ 
+ 经典示例：
+ 求一元二次方程的根
+ ax^2+bx+c=0
+
+ ///示例代码
+
+ var a ,b,c float64
+    fmt.Println("please input a b c ")
+    fmt.Scanf("%f %f %f",&a,&b,&c)
+    var d,r1,r2 float64
+    d=b*b-4*a*c
+    if d>0 {
+       //add your code ,and output r1,r2
+    }else if d==0{
+        //add your code ,and output r1,r2
+    }else{
+        fmt.Println("这个方程没有解")
+    }
+
+
+
+
+
+
+ 
+
+
+
+ 
+2.for(循环结构) 语法解析；
+
+for init; condition; post { } //for
+for condition { } //while
+for {}  //dead loop
+init： 一般为赋值表达式，给控制变量赋初值；
+condition： 关系表达式或逻辑表达式，循环控制条件；
+post： 一般为赋值表达式，给控制变量增量或减量。
+
+
+  
+ func main()
+ {
+    for i:=1;i<=10;i++{
+       fmt.println("hello cuit!")
+    }
+ }
+
+
+ func main()
+ {
+    i:=1
+    for  i<=10 {   //while
+         fmt.printf("hellow cuit!")
+         i++
+    }
+ }
+
+
+    for {
+        //死循环  ;;;
+        if bool break
+        if      conitnue
+    }
+
+
+   //求 sum=1+...+n的和
+   ///单次运行
+   ///多次运行
+
+   func main()
+   {
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+  sum=1+...+n
+  n!
+
+
+  for i:=0;i<100;i++{
+     // add your code
+  }
+     
+  func getSum()
+  {
+
+  }
+
+
+
+3.for range(键值循环)
+
+ for 循环的 range 格式可以对 slice、map、数组、字符串等进行迭代循环：
+
+ for key, value := range oldMap {
+  newMap[key] = value
+
+   ---简单代码
+    a := []int{3, 4, 5, 6, 7}
+    for i, t := range a {
+        fmt.Println(i, t)
+    }
+ 
+
+ //// for range 使用频率非常高;
+
+ var str string="hello cuit!"
+ for index,c :=range str{
+    fmt.printf("%d %c",index,c)
+ }
+
+ var str string="hello cuit!"
+ for i:=0;i<len(str);i++{
+    fmt.printf(" %c ",str[i])
+ }
+
+ 
+
+
+
+
+
+
+3.2 循环嵌套 
+
+for [condition |  ( init; condition; increment ) | Range] {
+ for [condition |  ( init; condition; increment ) | Range] {
+   statement(s);
+ }
+ statement(s);
+}
+
+典型案例:
+
+ 输出 100以内的素数:
+
+ 课后完成2个案例：
+ 1. 求m,n 的最大公约数、最小公倍数
+ 2. 百元百鸡的问题( a,b,c ,价值自己 定义),输出购买的方法种类
+
+
+
+
+
+
+
+
+ break 控制语句；
+
+ 题目要求：生成随机数，1-100；如果生成随机数是99；退出程序
+
+rand.Seed(time.Now().Unix())
+
+
+label:  break,goto
+
+
+
+func main(){
+    
+
+    ///
+
+    x:  //定义标签位置
+    
+
+      if    break
+
+    goto x
+}
+
+
+
+ 
+
+
+
+0基础项目实战；(vue|java,go)
+
+
+  
+Go语言基础之流程控制(第4课)
+
+1.if  语句
+2.for(循环结构) 语法解析；
+3.for range(键值循环)
+
+
+4.switch case
+
+break;
+continue;
+
+
+
+
+
+
+4.switch case
+
+用于基于不同条件执行不同动作，每一个 case 分支都是唯一的，从上至下逐一测试，直到匹配为止。
+匹配项后面不需要再加 break。
+
+switch 默认情况下 case 最后自带 break 语句，匹配成功后就不会执行其他 case，如果我们需要执行后面的 case，可以使用 fallthrough 。
+fallthrough:强制执行后面的 case 语句，fallthrough 不会判断下一条 case 的表达式结果是否为 true
+
+
+
+func testSwitch(){
+      switch n:=7;n{
+         case 1,3,5,7,9:fmt.println("奇数")
+         case 2,4,6,8: fmt.println("偶数")
+         default: fmt.println("n")
+      }
+
+}
+
+func switchDemo(){
+    age:= 22
+    switch{
+    case age <25: fmt.println("好好学习")
+    case age>60:fmt.println("享受生活")
+    case age>25 && age <35：fmt.println("好好工作")
+    default:fmt.println(".....")
+    }
+}
+
+课堂练习：
+   输入成绩，通过键盘读入
+   根据成绩区间，输出等级；
+     90以上A
+     80以上B
+     其他  C
+
+ 
+ 
+  switch n:=8;n{
+    case 1,3,5,7,9 :
+       fmt.printf("奇数")
+       fallthrough
+    case 2,4,6,8,10:
+       fmt.printf("偶数")
+  }
+  
+ 
+ 
+
+
+
+
+goto(跳转到指定标签)
+
+  无条件转移到过程中指定行，与条件语句配合，
+  实现条件转移、构成循环、跳出循环体等（不建议用，造成混乱）
+
+break(跳出循环)
+   用于循环语句中跳出循环，并开始执行循环之后的语句。
+   break 在 switch（开关语句）中在执行一条 case 后跳出语句的作用。
+   
+   在多重循环中，可以用标号 label 标出想 break 的循环。
+
+continue(继续下次循环)
+   跳过当前循环的剩余语句，然后继续进行下一轮循环。
+
+ 
+
+  
+
+
+  
+ 
+ 
+
+goto:
+
+  /* 定义局部变量 */
+   var a int = 10
+
+   /* 循环 */
+   LOOP: for a < 20 {
+      if a == 15 {
+         /* 跳过迭代 */
+         a = a + 1
+         goto LOOP
+      }
+      fmt.Printf("a的值为 : %d\n", a)
+      a++    
+   }  
+
+
+
+
+break:
+
+// 不使用标记
+    fmt.Println("---- break ----")
+    for i := 1; i <= 3; i++ {
+        fmt.Printf("i: %d\n", i)
+                for i2 := 11; i2 <= 13; i2++ {
+                        fmt.Printf("i2: %d\n", i2)
+                        break
+                }
+        }
+
+    // 使用标记
+    fmt.Println("---- break label ----")
+    re:
+        for i := 1; i <= 3; i++ {
+            fmt.Printf("i: %d\n", i)
+            for i2 := 11; i2 <= 13; i2++ {
+                fmt.Printf("i2: %d\n", i2)
+                break re
+            }
+        }
+
+
+
+  
+
+
+continue:
+  /* 定义局部变量 */
+   var a int = 10
+
+   /* for 循环 */
+   for a < 20 {
+      if a == 15 {
+         /* 跳过此次循环 */
+         a = a + 1;
+         continue;
+      }
+      fmt.Printf("a 的值为 : %d\n", a);
+      a++;    
+   }  
+
+ 
+ 基本数据类型 已完结。
+
+ 数组、切片、通道、map    
+ 
+
+Go语言基础之数组/切片(第4课)
+ 
+经典案例：二分查找、冒泡排序、逆序存储； 【杨辉三角形】  [备选]
+
+
+ 1.数组定义
+ 2.数组的初始化
+ 3.数组的遍历
+ 4.多维数组
+ 5.数组是值类型
+
+
+
+
+ var a int
+
+ var a [3]int //定义一个长度为3元素类型的int数组a   // int a[3]
+
+ 其他语言中 如何 修改数组的大小????  //指针    //java ?
+
+ var 数组名 [元素大小] T  
+
+
+ var a [3]int
+ var b [4]int
+
+ a=b  ???  //c语言 数组名 常量 
+
+ 4.2:数组的初始化 
+
+
+   var  a [3]int
+   var numarry =[3]int{1,2}
+   var cityArray=[3]string{"北京","成都","上海"}
+
+
+   fmt.println(a)   //0 0 0 
+   fmt.println(numarray) // 1 2 0
+   fmt.println(cityArray) // 北京 成都 上海 
+
+
+   //定义的时候 不指定空间 
+   var numarry =[...]int{1,2}
+   var cityArray=[...]string{"北京","成都","上海"}
+
+   fmt.println("type of numarray :%T",numarray)   ???
+
+
+   指定索引值的方式进行初始化
+
+    a:=[]int{1:1,3:5}
+    fmt.println(a)  //  0 1 0 5     
+    fmt.println("type of numarray :%T",a)   // [4]int
+
+
+
+//数组的遍历   for range     
+
+// 下标法     
+
+  var a =[]string{"11","22","33"}
+  //for遍历
+   for i:=0;i<len(a);i++{
+       fmt.println(a[i])
+   }
+  //for range 遍历
+
+     for index,value:=range a{
+         fmt.println(index,value)
+     }
+   
+
+
+  //完成 数组的逆序存储。  6 7 3 4 9     9 4 3 7 6 
+
+
+
+  a[0]  a[1] a[2] a[3] a[4]
+
+  交换的次数 len(a)/2
+
+
+  t=a[0]
+  a[0]=a[4]
+  a[4] =t
+
+
+
+
+
+
+  
+
+
+gin
+
+copy+c;
+copy+v
+
+
+20---->7-8  ---高端算法;
+
+----用选择法，或者冒泡法 对数组进行排序
+
+
+
+var array = []int{22, 23, 11, 9, 99, 110}
+    fmt.Println("the value of array is", array)
+    for i := 0; i < len(array)-1; i++ {
+        for j := i + 1; j < len(array)-1; j++ {
+            if array[i] > array[j] {
+                temp := array[i]
+                array[i] = array[j]
+                array[j] = temp
+            }
+        }
+    }
+    fmt.Println("the sorted value is ", array)
+
+
+
+
+
+
+
+   函数参数的传递
+
+   实参--形参 
+   1.值传递   形参是实参的镜像拷贝，形参的变化不影响实参
+   2.址传递   指针
+
+
+   切片作为函数参数，
+   函数中的切片变化，会不会传到 主函数? //肯定的
+
+
+
+
+
+ Go语言基础之数组/切片(第5课)
+  1.基本定义和用法
+  2.切片是引用变量以及内存分配
+  3.切片程序定义的三种方式
+  4.注意slice的容量可以不写，但是如果写了容量(cap)必须大于或者等于长度(len)
+  5.切片细节说明
+  6.用切片的思路 编写一段代码[斐波那契数列]
+
+
+1.基本定义和用法
+
+ 切片是数组的一个引用，因此切片是引用类型，在进行传递时，遵守引用传递的机制
+
+切片的长度时可以变化的，因此切片是一个可以动态变化的数组
+
+切片定义的基本语法： var a []int
+//数组的定义   var a [3]int 
+//   var a []int{1,2,3,4,5}
+
+package main
+
+import "fmt"
+
+func main() {
+    var intArr [5]int = [5]int{1, 2, 3, 4, 5}
+    slice := intArr[1:3]
+    fmt.Println("The slice is: ", slice)// [2 3]
+    fmt.Println("The slice is: ", slice[0])//2
+    fmt.Println("The slice is: ", slice[1])//3
+}
+
+//输出结果？？？
+
+arr[1:3] 代表从数组的第二个开始截取，到第三个，但是不取
+
+arr[:3] /// [1,2,3]
+arr[1:] ///
+
+
+
+
+
+2.切片是引用变量以及内存分配
+
+ slice是对数组的一个引用，也就是说slice是直接对所引用的数组直接进行操作的，
+ 只要slice中的数据变了，数组中的数据也会跟着变
+
+slice从底层来说，其实就是一个struct结构体类型
+
+对于上面的slice我们可以理解为下面这个结构体
+type slice struct {
+    ptr *[2]int  // ptr是intArr的地址，也是intArr[0]的地址
+    len int      // len是指目前slice占用的内存长度
+    cap int      // cap是内存预计给slice分配的容量，可以动态变化
+}
+// cap的值是len的2倍。 cap>=len
+
+例子：查看 len，cap
+
+
+func main() {
+    var intArr [5]int = [5]int{1, 2, 3, 4, 5}
+    slice := intArr[1:3]
+    fmt.Println("The slice is: ", slice)
+    fmt.Println("The len of slice is: ", len(slice))
+    fmt.Println("The cap of slice is: ", cap(slice))
+}
+//结果？？
+ The slice is :[2 3]
+ The len of slice is :2
+ The cap of slice is :4
+
+
+
+3.切片程序定义的三种方式
+
+①第一种就像上面的例子，slice := intArr[1:3]，直接引用
+
+②用make，var slice []int = make([]int, 4, 10) make是用来给引用类型申请内存空间的，这里著名了要创造的空间是给int类型的切片用的，slice大小是4，slice的容量是10
+
+
+var slice1 []int = make([]int, 2, 4) //
+fmt.Println(slice1) //[0 0]
+slice1[0] = 1  
+slice1[1] = 2   
+fmt.Println(slice1) // [1 2]
+fmt.Println("The len of slice is: ", len(slice1)) //2
+fmt.Println("The cap of slice is: ", cap(slice1)) //4 
+
+//  ???
+
+③定义一个切片，直接就指定具体数据，使用原理类似make的方式
+
+
+var slice3 []int = []int{1, 2, 3, 4, 5}
+fmt.Println(slice3)
+fmt.Println("The len of slice is: ", len(slice3))
+fmt.Println("The cap of slice is: ", cap(slice3))
+
+
+
+5 切片细节说明
+
+①切片初始化时， var slice = arr[startIndex : endIndex]
+
+从arr数组下标为startIndex，取到下标为endIndex的元素，不含arr[endIndex]
+
+②切片初始化时，仍然不能越界，范围在[0 - len(arr)]之间，但是可以动态增长
+
+③几种简写方法：
+
+var slice = arr[0:end]  可简写为  var slice = arr[:end]
+var slice = arr[start:len(arr)]  可简写为  var slice = arr[start:]
+var slice = arr[0:len(arr)]  可简写为  var slice = arr[:]
+④cap是一个内置函数，用于统计切片的容量，即最大可以存放多少个元素
+
+⑤切片定义完后，还不能使用，因为本身是一个空的，需要让其引用到一个数组，或者make一个空间供切片来使用
+
+⑥切片可以继续切片。  //
+
+
+func main() {
+    var array [3]int = [3]int{1, 2, 3}
+    slice1 := array[:2]
+    slice2 := array[:1]
+
+    slice2[0]=100
+    //再输出array[0],slice1[0],slice2[0]
+
+    fmt.Printf("The address of array[0] array[1] array[2]"+
+        "is %p, %p and %p\n", &array[0], &array[1], &array[2])
+    fmt.Printf("The address of slice1[0] slice1[1]"+
+        "is %p, %p\n", &slice1[0], &slice1[1])
+    fmt.Printf("The address of slice2[0]"+
+        "is %p\n", &slice2[0])
+}
+
+//  array[0],slice1[0],slice2[0]
+指向的同一地址；array,因此 一动则都动。
+
+⑦ 内置函数append可以对切片进行动态的追加
+
+func main() {
+    var slice []int = []int{1, 2, 3}
+    fmt.Println("1. The value of slice is:", slice)//
+    slice1 := append(slice, 4, 5)
+    fmt.Println("2. The value of slice1 is:", slice1)
+    slice = append(slice, 4, 5, 6)
+    fmt.Println("3. The value of slice is:", slice)
+    slice = append(slice, slice...)    
+    fmt.Println("4. The value of slice is:", slice)
+}
+//关注地址 有无发生变化；
+/// 1. The value of slice is: [1 2 3]
+//  2. The value of slice1 is:[1 2 3 4 5]
+//  3. The value of slice is:[1 2 3 4 5 6]
+//  4. The value of slice is:[1 2 3 4 5 6 1 2 3 4 5 6]
+
+// [1 2 3 4 5 6],通过切片的操作 如何得到 [2 3 5]
+[2 3] [5]
+
+
+对切片append,其实就是对数组扩容，Golang会创建一个新的数组newArr，
+安装扩容后的大小，然后将slice原来引用的数组拷贝到新的数组newArr，
+再将等号左边的(上面是slice或者slice1)引用到newArr
+// newArr 对程序员不可见的。//go底层来维护的。 c,c++; //pascal delphi vbscript
+                                                     // asp,jsp
+
+                                                     .aspx //.net(c#) 
+                                                     .jsp  //jsp
+                                                     .html //前端
+
+
+
+
+
+func main() {
+    var slice []int = []int{1, 2, 3}
+    fmt.Println("1. The value of slice is:", slice)
+    slice1 := append(slice, 4, 5)
+    fmt.Println("2. The value of slice1 is:", slice1)
+    fmt.Printf("The address of slice is %p\n", &slice[0])
+    fmt.Printf("The address of slice1 is %p", &slice1[0])
+}
+
+//append的切片，跟之前的切片地址是否相同？？？
+
+ go语言的细节问题：baidu go的面试题|计算机网络|操作系统 ||越深--基础知识
+
+
+
+
+
+
+
+⑧slice的copy
+ copy(slice1,slice2):
+ 将 slice2的数据传给slice1,仅仅是值传递。
+
+ //java 面向对象
+ //go  面对过程.
+
+
+ func main(){
+
+      var slice1 []int= []int{1,2,3,4,5}
+      var slice2 []int=make([]int,10) //malloc 
+      fmt.Println("the value of slice2:",slice2)
+      copy(slice1,slice2)
+      fmt.Println("After copy")
+      fmt.Println("the value of slice2:",slice2)
+      fmt.Println("the value of slice1:",slice1)
+ }
+ // run 
+ //output is 
+
+ the value of slice2:[0 0 0 0 0 0 0 0 0 0]
+ after copy
+ the value of slice2:[]
+
+ func main(){
+
+      var slice1 []int= []int{1,2,3,4,5}
+      var slice2 []int=make([]int,3) //malloc 
+      fmt.Println("the value of slice1:",slice1)
+      copy(slice1,slice2)
+      fmt.Println("After copy")
+      fmt.Println("the value of slice1:",slice1)
+      fmt.Println("the value of slice2:",slice2)
+ }
+
+ [1 2 3 4 5]
+ [0 0 0 4 5]
+ [0 0 0]
+
+
+9:将 slice作为函数参数
+
+
+func test(slice []int){
+    slice[0]=100
+    fmt.Println("in function slice is ,"slice)
+}
+func main(){
+    var slice []int=[]int{1,2,3,4,5,6,7}
+    fmt.Println("slice is :",slice)
+    test(slice)
+    fmt.Println("After funcion slice is :",slice)
+}
+
+
+slice实战：
+通过调用函数Fab(n int),输出n个斐波那契数列的值。
+要求将 斐波那契数列存在 切片中.
+
+
+func Fab(n int) int{
+   if n==1||n==2{
+      return 1
+   }else {
+      return Fab(n-1)+Fab(n-2)
+   }
+}
+func createSlice(n int) []int{  
+   var slice [] int
+   for i:=1;i<=n;i++{
+      slice = append(slice,Fab(i))
+   }
+   return slice
+}
+func main(){
+    slice:=createSlice(10)
+    for index,value:range slice{
+       fmt.Println(index,value)
+    }
+}
+
+
+
+
+数组的代码：
+  
+    假期作业：实现二分查找 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.在函数中改变数组元素的值
+
+1.因此我们如果要在函数里面传递数组，那函数中也要注明：
+ func test(arr [3]int) {
+    //somecodes
+ }
+
+
+package main
+
+import "fmt"
+
+func test(arr  [3]string) {
+    arr[0] = "lzx"
+}
+
+func main() {
+    var array [3]string = [3]string{"fzd", "lyc", "zyq"}
+    fmt.Println("The array is:", array)
+    test(&array)
+    fmt.Println("The array is:", array)
+}
+//写出输出结果
+
+
+
+
+
+
+   
+
+
+
+
+
+
+ 
+
+
+
+go语言中的指针。
+
+
+// c和c++的指针  进行偏移。
+
+指针地址，指针类型，指针取值。
+
+为了保存一个变量的地址。 ==引入指针变量。
+
+ fmt.scanln(&a)
+ fmt.Println(a)
+
+var  a  *int
+
+& :取地址
+* ：根据地址 取值。
+
+go语言中的值类型：int,float,string,bool,array, struct
+
+  a:=10
+  b:=&a
+
+   a=100
+  *b=200
+
+   a 的值 发生变化没有？
+
+   *b 和 a 是指向同一内存地址。所有他们的值是一样的。 
+
+
+  fmt.Printf(" the type of b is :%T",b)
+
+
+
+  --示例：
+   func main(){
+
+       a:=20
+       b:=&a
+       fmt.Printf("a :%d",a)
+       fmt.Printf("b:%p type is %T",b,b)
+       fmt.Printf("b: value is %d",*b)
+   }
+   
+   //result
+
+    a:20
+    b:ox2323232323 type is *int
+    b: value is 20
+
+
+
+ --指针取值 ...
+
+  func main(){
+     a:=10
+     b:=&a
+     fmt.Printf("b type is %T",b)
+     c:=*b
+     fmt.Printf("c type is %T",c)
+     fmt.Printf("c value is %v",c)
+
+  }
+
+  // add your result
+
+   b type is *int
+   c type is int
+   c value is 10
+
+
+   // 函数的参数传递 
+   1.值传递  镜像拷贝 
+   2.址传递  形参的改变会反馈给实参。
+
+
+    func update1(x int){
+       x=200
+    }
+    func update2(x *int){
+      *x=300
+    }
+    func main(){
+      a:=20
+      update1(a)
+      fmt.Println(a)  //20
+      update2(&a)
+      fmt.Println(a)  //300
+    }
+
+
+   课堂作业：
+   编写一个函数 swap,在主函数中调用，已实现两个变量的交换。
+
+   a=3,b=4
+   a=4,b=3
+
+
+   func swap(a *int,b *int){
+     var t int
+     t=*a
+     *a=*b
+     *b=t
+   }
+
+   func swap1(a  int,b  int){  //能否完成交换？？？
+      var t int
+      t= a
+      a= b
+      b=t
+   }
+
+   func main(){
+      a:=10
+      b:=20
+      p1:=&a
+      p2:=&b
+      fmt.Println(a,b)   //10 20
+      swap(p1,p2)       //swap(&a,&b)   //p  point 指针
+      fmt.Println(a,b)   //20 10
+   }
+
+  
+
+
+  //new 和make  //malloc 
+
+  //new分配值类型。
+
+   a:=new(int)   //完成了空间分配，但是未进行初始化
+   b:=new(bool)  //完成了空间分配，但是未进行初始化
+
+   fmt.Println(*a)  //  0
+   fmt.Println(*b)  // false
+
+   func main(){
+
+       var a *int
+       a =new(int) //定义指针，必须要分配内存空间 ,如果不分配，野指针。
+       *a=10
+       fmt.Println(a)  //
+
+   }
+
+
+  var s=make([]int,5,10)
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+package main
+
+import "fmt"
+
+func test(arr  [3]string) {
+    arr[0] = "lzx"
+}
+
+func main() {
+    var array [3]string = [3]string{"fzd", "lyc", "zyq"}
+    fmt.Println("The array is:", array)
+    test(&array)
+    fmt.Println("The array is:", array)
+}
+//写出输出结果
+
+
+数组名 是一个地址。
+
+
+
+
+
+
+
+
+
+
+
+
+链接数据库   ip:port root/password/dbname
+
+原生的
+
+框架
+student;把学生导入到map中
+
+
+
+
+
+
+ Go语言基础之map(第6课)
+
+map定义
+map基本使用
+判断某个键是否存在
+map的遍历  
+使用delete()函数删除键值对
+按照指定顺序遍历map
+元素为map类型的切片
+值为切片类型的map
+
+
+
+1.map定义
+Go语言中提供的映射关系容器为map，其内部使用散列表（hash）实现。
+map是一种无序的基于key-value的数据结构，Go语言中的map是引用类型，必须初始化才能使用。
+
+Go语言中 map的定义语法如下：
+
+map[KeyType]ValueType
+其中，
+
+KeyType:表示键的类型。
+ValueType:表示键对应的值的类型。
+map类型的变量默认初始值为nil，需要使用make()函数来分配内存。语法为：
+
+make(map[KeyType]ValueType, [cap])
+其中cap表示map的容量，该参数虽然不是必须的，但是我们应该在初始化map的时候就为其指定一个合适的容量。
+
+2.map基本使用
+
+map中的数据都是成对出现的，map的基本使用示例代码如下：
+
+func main() {
+    scoreMap := make(map[string]int, 8)  //定义一个map类型
+    scoreMap["张三"] = 90
+    scoreMap["小明"] = 100
+    fmt.Println(scoreMap)
+    fmt.Println(scoreMap["小明"])
+    fmt.Printf("type of a:%T\n", scoreMap)
+}
+
+写出输出结果：
+
+map[小明:100 张三:90]
+100
+type of a:map[string]int
+
+
+
+go+mysql+redis/mongedb
+   
+
+map也支持在声明的时候填充元素，例如：
+
+ func main() {
+    userinfo := map[string]string{
+        "username": "cuit",
+        "password": "123456",
+    }
+    fmt.Println(userinfo)
+    fmt.Println(userinfo["username"])
+    fmt.Println(userinfo["password"])
+}
+
+//写出输出结果
+
+map[password:123456 username:cuit]
+cuit
+123456
+
+
+
+ 
+
+3.判断某个键是否存在
+
+Go语言中有个判断map中键是否存在的特殊写法，格式如下:
+
+value, ok := map[key]
+举个例子：
+
+func main() {
+    userinfo := make(map[string]string, 8)
+    userinfo["jack"] = "123456"
+    userinfo["rose"] = "A123456"
+    v, ok := userinfo["rose"]
+    if ok {
+        fmt.Println(v)
+    } else {
+        fmt.Println("无此用户")
+    }
+}
+
+//输出结果
+A123456
+ 
+
+
+4.map的遍历  
+
+Go语言中使用for range遍历map。
+
+func main() {
+    userinfo := make(map[string]string, 8)
+    userinfo["jack"] = "123456"
+    userinfo["rose"] = "A123456"
+    for k, v := range userinfo {
+        fmt.Println(k, v)
+    }     
+}
+
+//输出结果
+ 
+
+但我们只想遍历key的时候，代码该如何编写？？？？：
+//add your code 
+func main() {
+    userinfo := make(map[string]string, 8)
+    userinfo["jack"] = "123456"
+    userinfo["rose"] = "A123456"
+    for k,_ := range userinfo {
+        fmt.Println(k)
+    }     
+}
+
+
+
+
+
+注意： 遍历map时的元素顺序与添加键值对的顺序无关。
+
+
+5.使用delete()函数删除键值对
+
+使用delete()内建函数从map中删除一组键值对，delete()函数的格式如下：
+
+delete(map, key)
+其中，
+map:表示要删除键值对的map
+key:表示要删除的键值对的键
+
+示例代码如下：
+func main() {
+    userinfo := make(map[string]string, 8)
+    userinfo["jack"] = "123456"
+    userinfo["rose"] = "A123456"
+    fmt.Println(userinfo)
+    v, ok := userinfo["peter"]
+    if ok {
+       delete(userinfo, "peter")
+    }else{
+       fmt.Println("无peter用户")
+    }
+    
+    delete(userinfo, "jack")
+    fmt.Println(userinfo)
+}
+
+
+
+思考:此时如果判断map中无值时，则应该先进行判断
+
+
+
+6.按照指定顺序遍历map
+
+func main() {
+    rand.Seed(time.Now().UnixNano()) //初始化随机数种子
+    var scoreMap = make(map[string]int, 200)
+    for i := 0; i < 10; i++ {
+        key := fmt.Sprintf("stu%02d", i) //生成stu开头的字符串
+        value := rand.Intn(100)          //生成0~99的随机整数
+        scoreMap[key] = value
+    }
+    //取出map中的所有key存入切片keys
+    var keys = make([]string, 0, 200)
+    for key := range scoreMap {
+        keys = append(keys, key)
+    }
+    //对切片进行排序
+    sort.Strings(keys)
+    //按照排序后的key遍历map
+    for _, key := range keys {
+        fmt.Println(key, scoreMap[key])
+    }
+}
+
+//写出输出结果
+stu00 45
+stu01 22
+stu02 73
+stu03 32
+stu04 13
+stu05 27
+stu06 29
+stu07 43
+stu08 10
+stu09 83
+
+
+
+7.元素为map类型的切片
+func main() {
+    var mapSlice = make([]map[string]string, 3)
+    for index, value := range mapSlice {
+        fmt.Printf("index:%d value:%v\n", index, value)
+    }
+    fmt.Println("after init")  
+    // 对切片中的map元素进行初始化
+    mapSlice[0] = make(map[string]string, 10)
+    mapSlice[0]["name"] = "小王子"
+    mapSlice[0]["password"] = "123456"
+    mapSlice[0]["address"] = "沙河"
+    for index, value := range mapSlice {
+        fmt.Printf("index:%d value:%v\n", index, value)
+    }
+}
+//输出结果
+
+index:0 value:map[]
+index:1 value:map[]
+index:2 value:map[]
+after init
+index:0 value:map[address:沙河 name:小王子 password:123456]
+index:1 value:map[]
+index:2 value:map[]
+
+
+
+
+
+
+8.值为切片类型的map
+func main() {
+    var sliceMap = make(map[string][]string, 3)
+    fmt.Println(sliceMap)
+    fmt.Println("after init")
+    key := "中国"
+    value, ok := sliceMap[key]
+    if !ok {
+        value = make([]string, 0, 2)
+    }
+    value = append(value, "北京", "上海")
+    sliceMap[key] = value
+    fmt.Println(sliceMap)
+}
+//输出结果
+
+map[]
+after init
+map["中国"：["北京"，"上海"]]
+
+
+
+---链接数据库参考代码
+package main
+
+import (
+    "database/sql"
+    "fmt"
+    _ "github.com/go-sql-driver/mysql"
+    "log"
+)
+
+func main() {
+    db, err := sql.Open("mysql", "root:123456@tcp(127.0.0.1:3306)/DB_TEST")
+    db.Ping()
+    defer db.Close()
+
+    if err != nil {
+        fmt.Println("数据库连接失败！")
+        log.Fatalln(err)
+    }
+
+    _, err2 := db.Exec("CREATE TABLE user(id INT NOT NULL , name VARCHAR(20), PRIMARY KEY(ID));")
+    if err2 != nil {
+        log.Fatal(err2)
+    }
+
+    fmt.Print("Successfully Created\n")
+}
+
+
+
+
+ ===函数，接口、struct、并发----
+函数
+struct
+
+
+
+ 
+
+课堂练习:
+func main() {
+    type Map map[string][]int
+    m := make(Map)
+    s := []int{1, 2}
+    s = append(s, 3)
+    fmt.Printf("%+v\n", s)
+    m["q1mi"] = s
+    s = append(s[:1], s[2:]...)
+    fmt.Printf("%+v\n", s)
+    fmt.Printf("%+v\n", m["q1mi"])
+}
+
+//output
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+  
+
+
+
+
+
+
+

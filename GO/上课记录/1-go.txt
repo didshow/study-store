@@ -1,0 +1,435 @@
+﻿
+java
+web(html,js,css)
+
+
+
+chatGPT
+
+AUTO
+
+80%的 
+20%
+
+算法；
+
+
+
+
+刁仁宏
+13438142532
+24215272@qq.com
+
+
+30,70
+
+机考的
+
+
+
+
+考试系统：
+1.后端 ：跟数据库打交道，提供api【接口】    ---go   oj  +mysql+redis[缓存数据库]
+
+
+登录接口,
+输入参数:username,password
+输出ok,username not exist,password error. username or password is error.
+
+select count(*) from user where username ='' and password=''
+
+2.前端  交换展示的页面；  vue   -----react;
+
+人数需求：
+
+前端 2 
+后端 2
+
+
+dapp
+
+开发相关的；
+
+
+
+9-12
+
+上机：周日晚上；
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Go语言基础(第1-2课)
+
+1.变量和常量
+2.基本数据类型
+3.运算符
+4.程序结构
+5.简单代码
+
+
+
+
+
+ 学习一门语言的常规步骤？？？？？
+
+
+ 1.数据类型 
+ 2.定义变量的方法；  
+ 3.初始化 变量、赋值、 算术运算、关系运算；
+ 4.流程控制语句；
+ 5.常用内置函数，，数学函数，sqrt，pow，strlen,strcat
+ 6.代码结构
+ 7.IDE  vscode,golang 
+
+
+  编译型 java，go
+  解释型  html,css   ,js
+ 
+
+
+package main
+
+import "fmt"
+
+func main() {
+    /* Always Hello, World! */
+    fmt.Println("Hello, World!")
+}
+
+
+package main定义了包名。必须在源文件中非注释的第一行指明这个文件属于哪个包。
+package main表示一个可独立执行的程序，每个Go应用程序都包含一个名为main的包
+import "fmt" 告诉编译器程序运行需要用fmt包
+func main()是程序开始执行的函数，main函数是每一个可执行程序所必须包含的，一般来说都是在启动后第一个执行的函数（如果有init()函数则会先执行该函数）。
+{}中"{"不可以单独放一行。
+注释在程序执行时将被忽略。//单行注释，/..../多行注释也叫块注释，不可以嵌套使用，一般用于包的文档描述或注释成块的代码片段。
+fmt.Println(...)将字符串输出到控制台，并在最后自动增加换行字符\n。用fmt.Print("Hello, World!\n")可以得到相同的结果。
+ 
+
+
+
+go 代码执行
+
+让我们来看下如何编写 Go 代码并执行它。步骤如下：
+
+打开编辑器如Sublime2，将以上代码添加到编辑器中。
+
+将以上代码保存为 hello.go
+
+打开命令行，并进入程序文件保存的目录中。
+
+输入命令 go run hello.go 并按回车执行代码。
+
+如果操作正确你将在屏幕上看到 "Hello World!" 字样的输出。
+
+
+
+ 集合了面向过程+面向对象
+
+标识符和关键字；
+default,break,func,struct ,var,for,go
+
+变量的定义：
+
+var 变量名 变量类型
+
+
+ var age int
+ var name string
+ var isOk bool
+
+ var {
+
+      a int
+      b int
+      c int
+      d int
+ }
+
+
+ 变量的初始化
+
+   b=20
+   a="cuit"
+   c=3.4
+
+  var age int = 18
+  var name string = "xiaoming"
+ 
+
+   d=a*b+c
+
+   常量  const
+
+   const pi=3.14
+   const e =2.712
+
+   const{
+     pi=3.31
+     e=2.72
+     g=9.8
+   }
+
+
+  https://www.cnblogs.com/
+  https://www.codeproject.com/
+  
+
+ 
+
+
+Go语言基础(第2课)
+
+2.1go的基本数据类型：
+
+2.2Go语言的数据输入常用方式
+一、fmt包
+1.Scanf
+2.Scanln
+3.Scan
+4.printf
+5.println
+
+二、bufio包
+1.ReadByte
+2.ReadBytes
+3.ReadLine
+4.ReadRune
+5.ReadString
+    
+
+
+
+ 基本数据类型：
+ 1.整型
+ 2.浮点型
+ 3.复数
+ 4.布尔
+ 5.字符串
+
+ 数组、切片，map,channel,
+
+
+ --最终要解决什么？
+
+  用go编写对rdbs的四个操作,add(insert),delete,update,select ;
+  userinfo(userid,username,password,registerAt,status,....,isdelete)
+
+  登录操作：select
+  修改密码：update
+  用户注册：add
+  删除用户：delete //逻辑删除 update
+
+  订单系统：
+
+  加入购物车 ：add
+  外卖下单：add
+  订单送达：update
+  取消订单：update
+  评价： add（增加评价记录)，update(修改订单状态，修改整个店铺的评分)
+
+  //验证： 编写 前端网页；
+   // 直接查看数据库中的数据变化；postman
+
+---完成上述操作，平时100；
+
+
+
+基本数据类型：
+ 1.整型
+ 2.浮点型
+ 3.复数
+ 4.布尔
+ 5.字符串
+
+
+
+ var a int  //int的大小根据操作系统
+ 无符号整型:
+ uint8 :0-255           
+ uint16 :0-65535
+ uint32 :
+ ASCII  a-z,A-Z,0-9 .  @   //正则表达式  2@b
+
+
+
+浮点型：
+
+  float32
+  float64
+
+  math 掌握math后面提供的内置函数.sqrt ，pow(x,y) 
+
+    r*r*r  pow(r,10)
+
+复数 
+
+  var c1 complex  
+  c1 = 1+2i
+
+
+ 布尔值 :  int  0 ,1 
+
+ var b1 bool
+ b1=true
+ b1=false
+
+
+
+
+
+ 作为数据库的主键  guid
+ a7c17f36-dff0-11ed-a752-fa163e9a4130
+ ==32 位 
+
+ replace(str,'-','')
+
+
+
+ sqlserver :newid()
+ mysql     :uuid()
+
+
+ 字符串  utf-8
+
+ var s1 string
+ var s2 string
+
+ s1="hello"
+ s2="成都"
+
+ printf("")
+
+ \n  回车
+ \t  tab
+ \r  回车，返行首
+ \'
+ \"
+ \\ 输出一个 \
+
+ 输出 
+
+
+ D:\wechat\test.go
+
+ 多行字符串？？？
+
+  s1:=`第一行
+  第二行
+  第三行
+  `
+
+  i:=0
+
+
+
+  sdafa|adafa|adafadfa
+
+
+
+  记录常用的 strings提供库函数
+
+
+  编程高手：记忆了很多库函数
+
+ 
+ char  替代的 byte  utf-8
+
+ %c
+
+  a
+  "中"
+
+  输出 ：各种数据类型的输出
+  prinf("%v")
+
+
+  输入的时候 ：
+
+  变量名前加 &
+
+  scanf
+  scanln
+  scan  可以把所有的变量写在一行
+
+  scan(&a,&b,&c,&d)
+  scanln(&a)
+  scanln(&b)
+  scanf("%d %f",&a,&b)
+
+
+  ---课堂实践
+
+  输入三角形的三边，输出三角形的面积；
+
+  s=(a+b+c)/2
+  area=sqrt(s(s-a)(s-b)(s-c))
+
+  3.0
+  4.0
+  5.0
+
+
+  var 
+  {
+    a  float 64
+    b  float 64
+    c  float 64
+  }
+ 
+   a=3.0
+   b=4.0
+   c=5.0
+
+   t:=(a+b+c)/2
+   area:=math.sqrt()
+
+
+
+   总结：
+   go的基本数据类型
+   scanf，printf
+   小例子;
+   ////关注  string,byte  字符和字符串的用法
+   //math.  strings.
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+   
+
+
+
+
+  
+
+
+
+
+
+
+
