@@ -1,0 +1,138 @@
+package dataframe;
+
+import java.util.ArrayList;
+
+//目的：一个泛型动态的数组
+public class GenerricArray<E> {
+	//容量（只是动态数组的一个临时的容量）
+	//capacity = data.length
+	private int capacity;
+	//繁星数组E可以存放所有类型的数据
+	private E[] data;
+	//元素个数
+	private int size;
+	//全局变量(必须赋值)好处是利于维护
+	private static final int DEFAULT_CAPACITY = 10;
+	//空参构造器
+	public GenerricArray() {
+		//有点不理解
+		this(DEFAULT_CAPACITY);
+	}
+	//一个变量的构造器
+	public GenerricArray(int capacity) {
+		this.size = 0;
+		//强制转换
+		data = (E[])new Object[capacity];
+	}
+	//在第一个位置上添加
+	public void addFirst(E e) {
+		data[0] = e;
+		size ++;
+	}
+	//在最后一个位置添加
+	public void addLast(E e) {
+		data[size] = e;
+		size ++;
+	}
+	//找一个泛型数组里元素的索引
+	E getIndex(int index) {
+		if(index < 0 || index >= size) {
+			throw new IllegalArgumentException("位置错误");
+		}
+		return data[index];
+	}
+	public void add(int index,E e) {
+		//判断index的值是否符合
+		 if(index < 0 || index > size) {
+			 throw new IllegalArgumentException("位置错误");
+		 }
+		 if(size == data.length){
+			 reSize(2*data.length);
+		 }
+		 
+		 {
+		 //先将index后的元素往后移动，然后在给index位置赋值为e
+			 for (int i = 0;i > index;i--) {
+				 data[i] = data[i+1];
+			 }
+			 data[index] = e;
+		 }
+		 size ++;
+	}
+	//删除特定位置的元素
+	public E delete(int index,E e) {
+		if(index < 0 || index >= size) {
+			throw new IllegalArgumentException("位置错误");
+		}
+		//降低size缩小的阈值
+		if(size < 1/4*data.length) {
+			reSize(1/2*data.length);
+		}
+		//直接覆盖
+		for(int i = 1;i > index;i++) {
+			data[i] = data[i-1];
+		}
+		E value = data[index];
+		size --;
+		return value;
+	}
+	public void reSize(int newCapacity) {
+		//易错：=（boolean） 和 == （等于）
+		//因为动态数组没有capacity，如果用capacity的话第二次第三次扩容容易出错所以用data.length
+		if (size == data.length) {
+		//建立一个容量为原来两倍的数组
+		//问题：自己做的时候不知道创建什么类型的对象
+			E[] newData = (E[]) new Object[newCapacity];
+			//把data里的每一个值都赋给newData:注意判断临界值
+			for(int i = 0;i < size;i++) {
+				newData[i] = data[i];
+			}
+			//把newData的地址赋值给data
+			newData = data;
+		}
+	}
+
+	public static void main (String [] args) {
+		ArrayList<String> gal = new ArrayList<String>(5);
+		gal.add("张三");
+		gal.add("李四");
+		gal.add("王五");
+		gal.add("赵六");
+		gal.add("王七");
+		for(int i = 0;i < 5;i++) {
+			String ele = gal.get(i);
+			System.out.println(gal);
+			try {
+				System.out.println(gal.get(5));
+			}catch(IllegalArgumentException e) {
+				System.out.println(e);
+			}
+			try {
+				gal.add("越界");
+			}catch(IllegalArgumentException e) {
+				System.out.println(e);
+			}
+			
+		}
+		System.out.println(gal);
+		
+		System.out.printf("index of 王五 is:%d",gal.indexOf("王五"),gal.indexOf("..."));
+		
+		ArrayList<Integer> ga2 = new ArrayList<>(5);
+		
+		for (int i = 0;i < 5;i++) {
+			System.out.println(ga2.get(i));
+		}
+		try {
+			ga2.add(3,100);
+		}catch(IllegalArgumentException e) {
+			System.out.println(e);
+		}
+		System.out.println(ga2);
+		try {
+			ga2.get(100);
+		}catch(IllegalArgumentException e) {
+			System.out.println(e);
+		}
+	}
+}

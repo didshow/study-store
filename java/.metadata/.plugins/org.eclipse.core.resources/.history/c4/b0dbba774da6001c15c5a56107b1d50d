@@ -1,0 +1,107 @@
+package dataframe;
+
+public class DouLinkedList <E>{
+	//创建一共节点的内部类
+	public class Node{
+		//数据
+		private E data;
+		//保存前一个节点的指针域
+		private Node prev;
+		//保存下一个节点的指针域 
+		private Node next;
+		
+		//空参构造器
+		public Node() {
+			this(null,null,null);
+		}
+		//一个参数的构造器
+		public Node(E element) {
+			this(element,null,null);
+		}
+		//三个参数的构造器
+		public Node(E data,Node prev,Node next) {
+			this.data = data;
+			this.prev = prev;
+			this.next = next;
+		}
+	}
+			//节点数
+			private int size;
+			//头节点
+			private Node header;
+			//尾节点
+			private Node tail;
+			
+			//空参构造器(空链表)
+			public DouLinkedList() {
+				this.size = 0;
+				header = null;
+				tail = null;
+			}
+			
+			//一个元素的构造器(知道的指定的数据元素创建链表)
+			public DouLinkedList(E element) {
+				//调用上面内部类的一个参数的构造器
+				this.header = new Node(element,null,null);
+				//只有一个元素是头节点和尾节点是同一个
+				this.tail = this.header;
+				this.size = 1;
+			}
+			
+			//返回链表的长度
+			
+			public int getLength() {
+				return size;
+			}
+			
+			//
+			//将要添加的元素
+			Node newNode = new Node();
+			
+			//查询指定index位置的节点
+			public Node getNodeByIndex(int index) {
+				if(index < 0 || index >= size) {
+					throw new IllegalArgumentException("位置错误");
+				}
+				
+				Node goal = new Node();
+				
+				if(index < size/2) {
+					//一直循环到index的位置才停
+					for (int i = 0;i <= index;i++) {
+						goal = goal.next;
+					}
+				}
+				if(index > size/2) {
+					for(int i = size;i > index;i--) {
+						goal = goal.prev;
+					}
+				}
+				return goal;
+			}
+			
+			//查询指定元素的索引(有就返回index，没有就返回-1)
+			public int getIndex(int index,E element) {
+				for(int i = 0;i < size;i++) {
+					if(element.equals(element)) {
+						return index;
+					}
+				}
+				return -1;
+			}
+			
+			//在指定位置前添加
+			public boolean addFirst(int index,E element) {
+				//1.把header的next赋值给node的next
+				newNode.next = header.next;
+				//2.把newNode赋值给header的next
+				header.next = newNode;
+				//3.
+				
+				return true;
+			}
+			
+			
+			
+			
+}

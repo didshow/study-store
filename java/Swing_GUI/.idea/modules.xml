@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GUI_0401/GUI_0401.iml" filepath="$PROJECT_DIR$/GUI_0401/GUI_0401.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_0401_2/GUI_0401_2.iml" filepath="$PROJECT_DIR$/GUI_0401_2/GUI_0401_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_0402_2/GUI_0402_2.iml" filepath="$PROJECT_DIR$/GUI_0402_2/GUI_0402_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_0402_3/GUI_0402_3.iml" filepath="$PROJECT_DIR$/GUI_0402_3/GUI_0402_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_0402_4/GUI_0402_4.iml" filepath="$PROJECT_DIR$/GUI_0402_4/GUI_0402_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_0402_5/GUI_0402_5.iml" filepath="$PROJECT_DIR$/GUI_0402_5/GUI_0402_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_0402_6/GUI_0402_6.iml" filepath="$PROJECT_DIR$/GUI_0402_6/GUI_0402_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_0403_1/GUI_0403_1.iml" filepath="$PROJECT_DIR$/GUI_0403_1/GUI_0403_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_0403_2/GUI_0403_2.iml" filepath="$PROJECT_DIR$/GUI_0403_2/GUI_0403_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_0403_3/GUI_0403_3.iml" filepath="$PROJECT_DIR$/GUI_0403_3/GUI_0403_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_0405_1/GUI_0405_1.iml" filepath="$PROJECT_DIR$/GUI_0405_1/GUI_0405_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_0405_2/GUI_0405_2.iml" filepath="$PROJECT_DIR$/GUI_0405_2/GUI_0405_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_0405_3/GUI_0405_3.iml" filepath="$PROJECT_DIR$/GUI_0405_3/GUI_0405_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_0405_4/GUI_0405_4.iml" filepath="$PROJECT_DIR$/GUI_0405_4/GUI_0405_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_0405_5/GUI_0405_5.iml" filepath="$PROJECT_DIR$/GUI_0405_5/GUI_0405_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_0405_6/GUI_0405_6.iml" filepath="$PROJECT_DIR$/GUI_0405_6/GUI_0405_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_0408_1/GUI_0408_1.iml" filepath="$PROJECT_DIR$/GUI_0408_1/GUI_0408_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI_402/GUI_402.iml" filepath="$PROJECT_DIR$/GUI_402/GUI_402.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Swing_GUI.iml" filepath="$PROJECT_DIR$/.idea/Swing_GUI.iml" />
+    </modules>
+  </component>
+</project>

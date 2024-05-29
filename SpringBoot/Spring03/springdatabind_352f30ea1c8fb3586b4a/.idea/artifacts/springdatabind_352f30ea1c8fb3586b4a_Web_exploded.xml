@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springdatabind_352f30ea1c8fb3586b4a:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/springdatabind_352f30ea1c8fb3586b4a_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="springdatabind_352f30ea1c8fb3586b4a/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springdatabind_352f30ea1c8fb3586b4a" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="lib1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

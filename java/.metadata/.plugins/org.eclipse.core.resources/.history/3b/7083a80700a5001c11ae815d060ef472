@@ -1,0 +1,47 @@
+package dataframe;
+
+	public class LinkedList <E> {
+		//节点(内部类:内部有构造器)
+		private class Node{
+			
+			//此节点的数据(数据域)
+			private E data;
+			
+			//下一个元素的指针(指针域)
+			private Node next;
+			
+			//下面的构造器有顺序(必须按照参数从少到多)
+			//空参构造器
+			public Node() {
+				//this 是调用的其他构造器里面的
+				this(null,null);
+			}
+			
+			//只知道一个参数的构造器
+			public Node(E data) {
+				this(data,null);
+			}
+			
+			//知道两个参数的构造器
+			public Node(E data,Node next) {
+				this.data = data;
+				this.next = next;
+			}
+			
+		}
+		//链表长度
+		private int size;
+		
+		//虚拟头节点(计算机能识别)
+		private Node dummyHead;
+		
+		//空参构造器
+		public LinkedList() {
+			this.size = 0;
+			//因为dummyHead是 Node 类型的
+			dummyHead = new Node();
+		}
+		//在指定位置添加
+		public 
+	
+}

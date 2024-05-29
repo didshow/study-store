@@ -1,0 +1,7 @@
+# 数据库配置
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc.url=jdbc:mysql://localhost:3307/springboot?useSSL=false&serverTimezone=UTC&characterEncoding=utf8
+    driverClassName: com.mysql.cj.jdbc.Driver

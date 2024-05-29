@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>显示查询结果</title>
+</head>
+<body>
+<h3>Spring Data JPA简单查询</h3>
+
+<table>
+    <tbody>
+    <tr th:each="user:${allUsers}">
+        <td>
+            <span th:text="${user.id}"></span>
+        </td>
+
+        <td>
+            <span th:text="${user.uname}"></span>
+        </td>
+
+        <td>
+            <span th:text="${user.usex}"></span>
+        </td>
+
+        <td>
+            <span th:text="${user.age}"></span>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

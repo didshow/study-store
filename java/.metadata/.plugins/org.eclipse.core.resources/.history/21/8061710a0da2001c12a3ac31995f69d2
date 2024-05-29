@@ -1,0 +1,80 @@
+package dataframe;
+//目的：一个泛型动态的数组
+public class GenerricArray<E> {
+	//容量（只是动态数组的一个临时的容量）
+	//capacity = data.length
+	private int capacity;
+	//繁星数组E可以存放所有类型的数据
+	private E[] data;
+	//元素个数
+	private int size;
+	
+	public GenerricArray(int capacity) {
+		this.size = 0;
+		//强制转换
+		data = (E[])new Object[capacity];
+	}
+	//在第一个位置上添加
+	public void addFirst(E e) {
+		data[0] = e;
+		size ++;
+	}
+	//在最后一个位置添加
+	public void addLast(E e) {
+		data[size] = e;
+		size ++;
+	}
+	//找一个泛型数组里元素的索引
+	E getIndex(int index) {
+		if(index < 0 || index >= size) {
+			throw new IllegalArgumentException("位置错误");
+		}
+		return data[index];
+	}
+	public void add(int index,E e) {
+		//判断index的值是否符合
+		 if(index < 0 || index > size) {
+			 throw new IllegalArgumentException("位置错误");
+		 }
+		 if(size == data.length){
+			 reSize(2*data.length);
+		 }
+		 
+		 {
+		 //先将index后的元素往后移动，然后在给index位置赋值为e
+			 for (int i = 0;i > index;i++) {
+				 data[i] = data[i+1];
+			 }
+			 data[index] = e;
+		 }
+		 size ++;
+	}
+	public void delete(int index,E e) {
+		if(index < 0 || index >= size) {
+			throw new IllegalArgumentException("位置错误");
+		}
+		if(size < 1/4*data.length) {
+			reSize(1/2*data.length);
+		}
+		for(int i = 1;i > index;i--) {
+			data[i] = data[i+1];
+		}
+		E value = data[index];
+		size --;
+	}
+	public void reSize(int newCapacity) {
+		//易错：=（boolean） 和 == （等于）
+		//因为动态数组没有capacity，如果用capacity的话第二次第三次扩容容易出错所以用data.length
+		if (size == data.length) {
+		//建立一个容量为原来两倍的数组
+		//问题：自己做的时候不知道创建什么类型的对象
+			E[] newData = (E[]) new Object[newCapacity];
+			//把data里的每一个值都赋给newData:注意判断临界值
+			for(int i = 0;i < size;i++) {
+				newData[i] = data[i];
+			}
+			//把newData的地址赋值给data
+			newData = data;
+		}
+	}
+}

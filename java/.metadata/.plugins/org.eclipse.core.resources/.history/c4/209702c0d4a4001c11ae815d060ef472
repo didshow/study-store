@@ -1,0 +1,16 @@
+package dataframe;
+
+public class LinkList <E> {
+	//节点(内部类)
+	private class Node{
+		//此节点的数据
+		private E data;
+		//下一个元素的指针
+		private Node next;
+		
+	}
+//构造器
+	public LinkList() {
+		
+	}
+}

@@ -1,0 +1,72 @@
+package dataframe;
+
+	//单向链表
+
+	public class LinkedList <E> {
+		
+		//节点(内部类:内部有构造器)
+		private class Node{
+			
+			//此节点的数据(数据域)
+			private E data;
+			
+			//下一个元素的指针(指针域)
+			private Node next;
+			
+			//下面的构造器有顺序(必须按照参数从少到多)
+			//空参构造器
+			public Node() {
+				//this 是调用的其他构造器里面的
+				this(null,null);
+			}
+			
+			//只知道一个参数的构造器
+			public Node(E data) {
+				this(data,null);
+			}
+			
+			//知道两个参数的构造器
+			public Node(E data,Node next) {
+				this.data = data;
+				this.next = next;
+			}
+			
+		}
+		//链表长度
+		private int size;
+		
+		//虚拟头节点(计算机能识别)
+		private Node dummyHead;
+		
+		//空参构造器
+		public LinkedList() {
+			this.size = 0;
+			//因为dummyHead是 Node 类型的
+			dummyHead = new Node();
+		}
+		
+		//在指定位置添加
+		public boolean add(int index,E data) {
+			if(index < 0 || index > size) {
+				throw new IllegalArgumentException("位置错误");
+			}
+			//造对象(节点)
+			Node prev = dummyHead;				//prev是要插入元素位置的前一个元素的位置
+			
+			//第一步：先找到prev的位置
+			for (int i = 0;i < index;i++) {
+				prev = prev.next;
+			}
+			
+			//再创建一个对象(要添加的元素s)
+			Node node = new Node();
+			
+			//1.先将prev指向next的指针域传给要添加的元素s的指针域 
+			node.next = prev.next;
+			//2.再将prev的指针域指向要添加的元素s
+			prev.next = node;
+			size ++;
+			return true;
+		}
+	
+}

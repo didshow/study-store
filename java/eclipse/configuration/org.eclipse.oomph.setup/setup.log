@@ -1,0 +1,1522 @@
+[2022-03-20 09:28:11] Executing bootstrap tasks
+[2022-03-20 09:28:11] OpenJDK Runtime Environment 17.0.2+8
+[2022-03-20 09:28:11] Product org.eclipse.products.epp.package.java.2022-03
+[2022-03-20 09:28:11] Bundle org.eclipse.oomph.setup 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:28:11] Bundle org.eclipse.oomph.setup.core 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:28:11] Bundle org.eclipse.oomph.setup.p2 1.18.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:28:11] Performing P2 Director (Eclipse IDE for Java Developers (2022-03))
+[2022-03-20 09:28:11] Offline = false
+[2022-03-20 09:28:11] Mirrors = true
+[2022-03-20 09:28:11] Resolving 17 requirements from 3 repositoriesto D:\soft\java\eclipse
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.23.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-03-20 09:28:11] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-03-20 09:28:11] Repository https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:28:11] Repository https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:28:11] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2022-03-20 09:28:22] Calculating requirements and dependencies.
+[2022-03-20 09:28:22] Computing prerequisite plan
+[2022-03-20 09:28:27] Fetching artifacts.xml.xz from https://download.eclipse.org/releases/2022-03/202203161000/ (502.25kB)
+[2022-03-20 09:28:29] Fetching artifacts.xml.xz from https://download.eclipse.org/releases/2022-03/202203161000/
+[2022-03-20 09:29:01] Fetching compositeArtifacts.jar from https://download.eclipse.org/oomph/updates/milestone/latest/ (428B)
+[2022-03-20 09:29:05] Fetching artifacts.xml.xz from https://download.eclipse.org/oomph/drops/release/1.24.0/ (18.98kB)
+[2022-03-20 09:29:08] Fetching artifacts.jar from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200/ (7.82kB)
+[2022-03-20 09:29:08] Collecting 5 artifacts from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:29:08] Downloading org.eclipse.epp.package.common.feature
+[2022-03-20 09:29:08] Downloading org.eclipse.epp.package.common
+[2022-03-20 09:29:08] Downloading epp.package.java.executable.win32.win32.x86_64
+[2022-03-20 09:29:08] Downloading org.eclipse.epp.package.java
+[2022-03-20 09:29:08] Downloading org.eclipse.epp.package.java.feature
+[2022-03-20 09:29:10] Fetching epp.package.java.executable.win32.win32.x86_64_4.23.0.20220310-1200 from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200/binary/ (266.5kB)
+[2022-03-20 09:29:10] Fetching org.eclipse.epp.package.java.feature_4.23.0.20220310-1200.jar from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200/features/ (19.75kB)
+[2022-03-20 09:29:10] Fetching org.eclipse.epp.package.java_4.23.0.20220310-1200.jar from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200/plugins/ (278.89kB)
+[2022-03-20 09:29:11] Fetching epp.package.java.executable.win32.win32.x86_64_4.23.0.20220310-1200 from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200/binary/
+[2022-03-20 09:29:11] Fetching org.eclipse.epp.package.java_4.23.0.20220310-1200.jar from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200/plugins/
+[2022-03-20 09:29:11] Fetching org.eclipse.epp.package.common.feature_4.23.0.20220310-1200.jar from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200/features/ (19.58kB)
+[2022-03-20 09:29:14] Fetching org.eclipse.epp.package.common_4.23.0.20220310-1200.jar from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200/plugins/ (220.61kB)
+[2022-03-20 09:29:16] Fetching org.eclipse.epp.package.common_4.23.0.20220310-1200.jar from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200/plugins/
+[2022-03-20 09:29:28] Mirrored 5 artifacts from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200/ at 29kb/s
+[2022-03-20 09:29:28] Collected 5 artifacts for https://download.eclipse.org/technology/epp/packages/2022-03/202203101200 in 19.625s
+[2022-03-20 09:29:28] Collecting 215 artifacts from https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:29:30] Downloading org.eclipse.platform_root
+[2022-03-20 09:29:30] Downloading org.eclipse.mylyn.wikitext.confluence.ui
+[2022-03-20 09:29:30] Downloading org.eclipse.egit
+[2022-03-20 09:29:30] Downloading org.eclipse.rcp
+[2022-03-20 09:29:30] Downloading org.eclipse.mylyn.wikitext.asciidoc.ui
+[2022-03-20 09:29:30] Downloading org.eclipse.mylyn.wikitext.textile.ui
+[2022-03-20 09:29:30] Downloading org.eclipse.mylyn.wikitext.tracwiki.ui
+[2022-03-20 09:29:30] Downloading org.eclipse.mylyn.wikitext.markdown.ui
+[2022-03-20 09:29:30] Downloading org.eclipse.mylyn.wikitext.mediawiki.ui
+[2022-03-20 09:29:30] Downloading org.eclipse.mylyn.wikitext.twiki.ui
+[2022-03-20 09:29:30] Fetching org.eclipse.mylyn.wikitext.textile.ui_3.0.42.202201072301.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (12.34kB)
+[2022-03-20 09:29:30] Downloading org.eclipse.epp.mpc.core.win32
+[2022-03-20 09:29:30] Fetching org.eclipse.rcp_4.23.0.v20220308-0310.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (11.11kB)
+[2022-03-20 09:29:30] Fetching org.eclipse.mylyn.wikitext.tracwiki.ui_3.0.42.202201072301.jar from https://ftp.harukasan.org/eclipse//releases/2022-03/202203161000/plugins/ (10.49kB)
+[2022-03-20 09:29:30] Downloading org.eclipse.mylyn.wikitext.osgi
+[2022-03-20 09:29:30] Fetching org.eclipse.mylyn.wikitext.twiki.ui_3.0.42.202201072301.jar from https://ftp.harukasan.org/eclipse/releases/2022-03/202203161000/plugins/ (10.35kB)
+[2022-03-20 09:29:30] Downloading org.eclipse.jgit
+[2022-03-20 09:29:31] Fetching org.eclipse.jgit_6.1.0.202203080745-r.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (14.36kB)
+[2022-03-20 09:29:31] Downloading org.eclipse.jgit.gpg.bc
+[2022-03-20 09:29:31] Fetching org.eclipse.jgit.gpg.bc_6.1.0.202203080745-r.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (14.38kB)
+[2022-03-20 09:29:31] Downloading org.eclipse.jgit.http.apache
+[2022-03-20 09:29:31] Fetching org.eclipse.jgit.http.apache_6.1.0.202203080745-r.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (14.39kB)
+[2022-03-20 09:29:31] Downloading org.eclipse.jgit.ssh.apache
+[2022-03-20 09:29:31] Fetching org.eclipse.jgit.ssh.apache_6.1.0.202203080745-r.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (14.4kB)
+[2022-03-20 09:29:31] Fetching org.eclipse.mylyn.wikitext.markdown.ui_3.0.42.202201072301.jar from https://mirrors.neusoft.edu.cn/eclipse/releases/2022-03/202203161000/plugins/ (10.07kB)
+[2022-03-20 09:29:31] Downloading org.eclipse.swt
+[2022-03-20 09:29:31] Downloading org.eclipse.wildwebdeveloper.xml.feature
+[2022-03-20 09:29:31] Fetching org.eclipse.wildwebdeveloper.xml.feature_0.13.3.202202030858.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (18.7kB)
+[2022-03-20 09:29:31] Fetching org.eclipse.swt_3.119.0.v20220223-1102.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (16.97kB)
+[2022-03-20 09:29:32] Fetching org.eclipse.mylyn.wikitext.osgi_3.0.42.202201072301.jar from https://download.eclipse.org/releases/2022-03/202203161000/plugins/ (13.68kB)
+[2022-03-20 09:29:32] Downloading org.eclipse.mylyn.wikitext.editors_feature
+[2022-03-20 09:29:32] Downloading org.eclipse.equinox.p2.user.ui
+[2022-03-20 09:29:32] Fetching org.eclipse.equinox.p2.user.ui_2.4.1500.v20220223-1131.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (18.93kB)
+[2022-03-20 09:29:32] Fetching org.eclipse.mylyn.wikitext.editors_feature_3.0.42.202201072301.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (18.89kB)
+[2022-03-20 09:29:32] Downloading org.eclipse.m2e.sourcelookup
+[2022-03-20 09:29:32] Fetching org.eclipse.m2e.sourcelookup_1.17.5.20220122-2204.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (18.96kB)
+[2022-03-20 09:29:32] Fetching org.eclipse.mylyn.wikitext.mediawiki.ui_3.0.42.202201072301.jar from https://mirror.library.ucy.ac.cy/eclipse/releases/2022-03/202203161000/plugins/ (11.51kB)
+[2022-03-20 09:29:32] Downloading org.eclipse.m2e.lemminx.feature
+[2022-03-20 09:29:32] Downloading org.eclipse.equinox.p2.discovery.feature
+[2022-03-20 09:29:32] Fetching org.eclipse.m2e.lemminx.feature_1.18.4.20220127-1634.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19kB)
+[2022-03-20 09:29:32] Fetching org.eclipse.mylyn.wikitext.confluence.ui_3.0.42.202201072301.jar from https://eclipse.mirror.rafal.ca/releases/2022-03/202203161000/plugins/ (11.77kB)
+[2022-03-20 09:29:32] Fetching org.eclipse.equinox.p2.discovery.feature_1.2.1100.v20220210-1157.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.06kB)
+[2022-03-20 09:29:32] Downloading org.eclipse.equinox.p2.rcp.feature
+[2022-03-20 09:29:32] Fetching org.eclipse.mylyn.wikitext.confluence.ui_3.0.42.202201072301.jar from https://eclipse.mirror.rafal.ca/releases/2022-03/202203161000/plugins/ (11.77kB)
+[2022-03-20 09:29:32] Fetching org.eclipse.equinox.p2.rcp.feature_1.4.1500.v20220223-1131.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.07kB)
+[2022-03-20 09:29:32] Downloading org.eclipse.emf.common
+[2022-03-20 09:29:32] Fetching org.eclipse.equinox.p2.rcp.feature_1.4.1500.v20220223-1131.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.07kB)
+[2022-03-20 09:29:32] Fetching org.eclipse.emf.common_2.25.0.v20220123-0838.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.07kB)
+[2022-03-20 09:29:32] Downloading org.eclipse.egit
+[2022-03-20 09:29:32] Downloading org.eclipse.oomph.p2
+[2022-03-20 09:29:32] Downloading org.eclipse.emf.ecore
+[2022-03-20 09:29:33] Fetching org.eclipse.egit_6.1.0.202203080745-r.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.1kB)
+[2022-03-20 09:29:33] Downloading org.eclipse.equinox.p2.extras.feature
+[2022-03-20 09:29:33] Fetching org.eclipse.oomph.p2_1.22.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.11kB)
+[2022-03-20 09:29:33] Fetching org.eclipse.equinox.p2.extras.feature_1.4.1500.v20220223-1131.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.14kB)
+[2022-03-20 09:29:33] Downloading org.eclipse.rcp
+[2022-03-20 09:29:33] Fetching org.eclipse.emf.ecore_2.27.0.v20220123-0838.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.14kB)
+[2022-03-20 09:29:33] Fetching org.eclipse.rcp_4.23.0.v20220308-0722.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.15kB)
+[2022-03-20 09:29:33] Downloading org.eclipse.oomph.setup
+[2022-03-20 09:29:33] Fetching org.eclipse.oomph.setup_1.24.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.17kB)
+[2022-03-20 09:29:33] Downloading org.eclipse.oomph.setup.core
+[2022-03-20 09:29:33] Fetching org.eclipse.oomph.setup.core_1.23.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.25kB)
+[2022-03-20 09:29:33] Downloading org.eclipse.tm.terminal.view.feature
+[2022-03-20 09:29:33] Fetching org.eclipse.tm.terminal.view.feature_10.6.0.202201122357.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.37kB)
+[2022-03-20 09:29:33] Downloading org.eclipse.tm.terminal.control.feature
+[2022-03-20 09:29:33] Fetching org.eclipse.tm.terminal.view.feature_10.6.0.202201122357.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.37kB)
+[2022-03-20 09:29:33] Fetching org.eclipse.epp.mpc.core.win32_1.9.3.v20220121-1317.jar from https://mirror.umd.edu/eclipse/releases/2022-03/202203161000/plugins/ (12.51kB)
+[2022-03-20 09:29:33] Downloading org.eclipse.tm.terminal.connector.ssh.feature
+[2022-03-20 09:29:33] Downloading org.eclipse.tm.terminal.feature
+[2022-03-20 09:29:33] Fetching org.eclipse.tm.terminal.control.feature_10.6.0.202202251626.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.38kB)
+[2022-03-20 09:29:33] Fetching org.eclipse.tm.terminal.connector.ssh.feature_10.6.0.202201122357.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.42kB)
+[2022-03-20 09:29:33] Downloading org.eclipse.help
+[2022-03-20 09:29:33] Downloading org.eclipse.equinox.p2.core.feature
+[2022-03-20 09:29:33] Downloading org.eclipse.jdt
+[2022-03-20 09:29:33] Fetching org.eclipse.tm.terminal.feature_10.6.0.202201121907.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.54kB)
+[2022-03-20 09:29:33] Fetching org.eclipse.help_2.3.900.v20220308-0310.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.55kB)
+[2022-03-20 09:29:33] Fetching org.eclipse.equinox.p2.core.feature_1.6.1300.v20220223-1131.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.73kB)
+[2022-03-20 09:29:33] Downloading org.eclipse.tips.feature
+[2022-03-20 09:29:34] Fetching org.eclipse.jdt_3.18.1100.v20220308-0310.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.77kB)
+[2022-03-20 09:29:34] Downloading org.eclipse.m2e.feature
+[2022-03-20 09:29:34] Fetching org.eclipse.m2e.feature_1.20.1.20220227-1319.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (20.02kB)
+[2022-03-20 09:29:34] Downloading org.eclipse.rcp_root
+[2022-03-20 09:29:34] Fetching org.eclipse.rcp_root_4.23.0.v20220308-0722 from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/binary/ (20.23kB)
+[2022-03-20 09:29:34] Downloading org.eclipse.epp.mpc
+[2022-03-20 09:29:34] Downloading org.eclipse.platform
+[2022-03-20 09:29:34] Fetching org.eclipse.epp.mpc_1.9.3.v20220121-1317.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (20.28kB)
+[2022-03-20 09:29:34] Fetching org.eclipse.platform_4.23.0.v20220308-0722.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (20.7kB)
+[2022-03-20 09:29:34] Downloading org.eclipse.e4.rcp
+[2022-03-20 09:29:34] Fetching org.eclipse.tips.feature_0.2.1700.v20220220-0850.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (19.85kB)
+[2022-03-20 09:29:34] Fetching org.eclipse.e4.rcp_4.23.0.v20220308-0630.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (20.95kB)
+[2022-03-20 09:29:34] Downloading org.eclipse.m2e.profiles.core
+[2022-03-20 09:29:34] Fetching org.eclipse.m2e.profiles.core_1.17.3.20220111-1313.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (21.77kB)
+[2022-03-20 09:29:34] Downloading org.eclipse.epp.mpc.ui.css
+[2022-03-20 09:29:35] Fetching org.eclipse.epp.mpc.ui.css_1.9.3.v20220121-1317.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (22.4kB)
+[2022-03-20 09:29:35] Downloading org.eclipse.ecf.provider.filetransfer.httpclient5.win32
+[2022-03-20 09:29:35] Fetching org.eclipse.ecf.provider.filetransfer.httpclient5.win32_1.0.400.v20220109-1926.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (22.98kB)
+[2022-03-20 09:29:35] Downloading org.eclipse.tm.terminal.connector.local.feature
+[2022-03-20 09:29:35] Downloading org.eclipse.tm.terminal.connector.telnet.feature
+[2022-03-20 09:29:35] Fetching org.eclipse.tm.terminal.connector.local.feature_10.6.0.202201122357.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (23.15kB)
+[2022-03-20 09:29:35] Downloading org.eclipse.oomph.extractor.lib
+[2022-03-20 09:29:35] Fetching org.eclipse.oomph.extractor.lib_1.9.0.v20220222-1048.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (24.6kB)
+[2022-03-20 09:29:35] Downloading org.eclipse.jgit.http.apache
+[2022-03-20 09:29:35] Downloading org.eclipse.m2e.sourcelookup.ui
+[2022-03-20 09:29:35] Fetching org.eclipse.m2e.sourcelookup.ui_1.17.4.20220119-1100.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (25.52kB)
+[2022-03-20 09:29:35] Fetching org.eclipse.tm.terminal.connector.telnet.feature_10.6.0.202201122357.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (23.18kB)
+[2022-03-20 09:29:35] Downloading org.eclipse.oomph.setup.p2.edit
+[2022-03-20 09:29:35] Downloading org.eclipse.jgit.archive
+[2022-03-20 09:29:35] Fetching org.eclipse.oomph.setup.p2.edit_1.14.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (25.68kB)
+[2022-03-20 09:29:35] Downloading org.eclipse.e4.core.commands
+[2022-03-20 09:29:35] Fetching org.eclipse.jgit.archive_6.1.0.202203080745-r.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (25.84kB)
+[2022-03-20 09:29:35] Downloading org.eclipse.ecf.filetransfer.feature
+[2022-03-20 09:29:35] Fetching org.eclipse.jgit.http.apache_6.1.0.202203080745-r.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (25.32kB)
+[2022-03-20 09:29:35] Downloading org.eclipse.ecf.filetransfer.httpclient5.feature
+[2022-03-20 09:29:35] Fetching org.eclipse.e4.core.commands_1.0.100.v20211204-1536.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (25.92kB)
+[2022-03-20 09:29:35] Fetching org.eclipse.ecf.filetransfer.feature_3.14.1800.v20220215-0126.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (27.83kB)
+[2022-03-20 09:29:35] Fetching org.eclipse.ecf.filetransfer.httpclient5.feature_1.1.600.v20220215-0126.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/features/ (27.9kB)
+[2022-03-20 09:29:35] Downloading org.apache.httpcomponents.client5.httpclient5-win
+[2022-03-20 09:29:35] Downloading org.eclipse.oomph.resources.edit
+[2022-03-20 09:29:35] Downloading org.eclipse.oomph.jreinfo.win32.x86_64
+[2022-03-20 09:29:35] Fetching org.apache.httpcomponents.client5.httpclient5-win_5.1.2.v20211217-1500.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (28.06kB)
+[2022-03-20 09:29:35] Downloading org.apache.httpcomponents.httpclient.win
+[2022-03-20 09:29:35] Fetching org.eclipse.oomph.jreinfo.win32.x86_64_1.8.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (29.62kB)
+[2022-03-20 09:29:35] Downloading org.eclipse.equinox.p2.extensionlocation
+[2022-03-20 09:29:35] Fetching org.eclipse.oomph.resources.edit_1.12.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (28.59kB)
+[2022-03-20 09:29:35] Downloading org.eclipse.oomph.workingsets.edit
+[2022-03-20 09:29:35] Fetching org.apache.httpcomponents.httpclient.win_4.5.13.v20211010-1849.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (30.16kB)
+[2022-03-20 09:29:35] Downloading org.eclipse.ui.themes
+[2022-03-20 09:29:35] Fetching org.eclipse.equinox.p2.extensionlocation_1.4.100.v20220213-0541.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (35.63kB)
+[2022-03-20 09:29:35] Fetching org.eclipse.oomph.workingsets.edit_1.12.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (37.13kB)
+[2022-03-20 09:29:35] Downloading org.eclipse.jgit.ssh.apache.agent
+[2022-03-20 09:29:36] Fetching org.eclipse.jgit.ssh.apache.agent_6.1.0.202203080745-r.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (37.84kB)
+[2022-03-20 09:29:36] Downloading org.eclipse.oomph.jreinfo
+[2022-03-20 09:29:36] Downloading org.eclipse.nebula.widgets.tablecombo
+[2022-03-20 09:29:36] Fetching org.eclipse.ui.themes_1.2.1700.v20220210-1145.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (37.71kB)
+[2022-03-20 09:29:36] Fetching org.eclipse.oomph.jreinfo_1.16.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (38.85kB)
+[2022-03-20 09:29:36] Downloading org.eclipse.tm.terminal.view.core
+[2022-03-20 09:29:36] Fetching org.eclipse.nebula.widgets.tablecombo_1.2.0.202203041639.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (39.74kB)
+[2022-03-20 09:29:36] Downloading org.eclipse.core.externaltools
+[2022-03-20 09:29:36] Fetching org.eclipse.tm.terminal.view.core_4.8.200.202201122357.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (42.15kB)
+[2022-03-20 09:29:36] Downloading org.eclipse.jdt
+[2022-03-20 09:29:36] Fetching org.eclipse.core.externaltools_1.2.200.v20220125-2302.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (42.65kB)
+[2022-03-20 09:29:36] Fetching org.eclipse.jdt_3.18.1100.v20220308-0310.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (42.93kB)
+[2022-03-20 09:29:36] Downloading org.eclipse.mylyn.wikitext.ant
+[2022-03-20 09:29:36] Fetching org.eclipse.mylyn.wikitext.ant_3.0.42.20220107230029.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (45.75kB)
+[2022-03-20 09:29:36] Downloading org.eclipse.oomph.workingsets
+[2022-03-20 09:29:36] Downloading org.eclipse.mylyn.wikitext.html
+[2022-03-20 09:29:36] Fetching org.eclipse.oomph.workingsets_1.12.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (46.78kB)
+[2022-03-20 09:29:36] Downloading org.eclipse.oomph.setup.p2
+[2022-03-20 09:29:37] Fetching org.eclipse.mylyn.wikitext.html_3.0.42.20220107230029.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (49.15kB)
+[2022-03-20 09:29:37] Downloading org.eclipse.mylyn.wikitext.twiki
+[2022-03-20 09:29:37] Downloading org.eclipse.equinox.p2.reconciler.dropins
+[2022-03-20 09:29:37] Fetching org.eclipse.oomph.setup.p2_1.18.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (50.36kB)
+[2022-03-20 09:29:37] Fetching org.eclipse.equinox.p2.reconciler.dropins_1.4.100.v20211217-1131.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (50.58kB)
+[2022-03-20 09:29:37] Downloading org.eclipse.oomph.p2.edit
+[2022-03-20 09:29:37] Fetching org.eclipse.equinox.p2.reconciler.dropins_1.4.100.v20211217-1131.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (50.58kB)
+[2022-03-20 09:29:37] Fetching org.eclipse.oomph.p2.edit_1.16.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (52.49kB)
+[2022-03-20 09:29:37] Downloading org.eclipse.oomph.jreinfo.ui
+[2022-03-20 09:29:37] Fetching org.eclipse.mylyn.wikitext.twiki_3.0.42.20220107230029.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (50.43kB)
+[2022-03-20 09:29:37] Fetching org.eclipse.oomph.jreinfo.ui_1.14.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (54.25kB)
+[2022-03-20 09:29:37] Downloading org.eclipse.oomph.predicates.edit
+[2022-03-20 09:29:37] Downloading org.eclipse.e4.ui.dialogs
+[2022-03-20 09:29:37] Downloading org.eclipse.equinox.p2.director.app
+[2022-03-20 09:29:37] Fetching org.eclipse.oomph.predicates.edit_1.12.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (56.39kB)
+[2022-03-20 09:29:37] Fetching org.eclipse.e4.ui.dialogs_1.3.200.v20211210-1500.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (56.73kB)
+[2022-03-20 09:29:37] Downloading org.eclipse.equinox.p2.discovery.compatibility
+[2022-03-20 09:29:37] Fetching org.eclipse.e4.ui.dialogs_1.3.200.v20211210-1500.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (56.73kB)
+[2022-03-20 09:29:37] Fetching org.eclipse.equinox.p2.discovery.compatibility_1.2.200.v20220210-1157.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (58.64kB)
+[2022-03-20 09:29:37] Downloading org.eclipse.emf.common.ui
+[2022-03-20 09:29:37] Fetching org.eclipse.emf.common.ui_2.20.0.v20220226-1304.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (161.81kB)
+[2022-03-20 09:29:38] Downloading org.eclipse.ui.monitoring
+[2022-03-20 09:29:38] Fetching org.eclipse.equinox.p2.director.app_1.2.100.v20211220-1825.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (58.07kB)
+[2022-03-20 09:29:38] Fetching org.eclipse.ui.monitoring_1.2.100.v20220204-0910.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (59.91kB)
+[2022-03-20 09:29:38] Downloading org.eclipse.tm.terminal.connector.ssh
+[2022-03-20 09:29:38] Downloading org.eclipse.jgit.gpg.bc
+[2022-03-20 09:29:38] Fetching org.eclipse.tm.terminal.connector.ssh_4.7.200.202201122357.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (59.94kB)
+[2022-03-20 09:29:38] Downloading org.eclipse.cdt.core.native
+[2022-03-20 09:29:39] Fetching org.eclipse.cdt.core.native_6.2.100.202202231938.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (64.34kB)
+[2022-03-20 09:29:39] Downloading org.eclipse.oomph.base.edit
+[2022-03-20 09:29:39] Fetching org.eclipse.jgit.gpg.bc_6.1.0.202203080745-r.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (64.29kB)
+[2022-03-20 09:29:39] Fetching org.eclipse.oomph.base.edit_1.14.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (64.89kB)
+[2022-03-20 09:29:39] Downloading org.eclipse.oomph.p2
+[2022-03-20 09:29:39] Downloading org.eclipse.equinox.p2.ui.sdk
+[2022-03-20 09:29:39] Fetching org.eclipse.oomph.p2_1.16.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (68.06kB)
+[2022-03-20 09:29:39] Fetching org.eclipse.equinox.p2.ui.sdk_1.2.4.v20220213-1624.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (68.52kB)
+[2022-03-20 09:29:39] Downloading org.eclipse.oomph.predicates
+[2022-03-20 09:29:39] Fetching org.eclipse.oomph.predicates_1.14.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (69.3kB)
+[2022-03-20 09:29:39] Downloading org.eclipse.oomph.base
+[2022-03-20 09:29:39] Downloading org.eclipse.core.filesystem
+[2022-03-20 09:29:39] Downloading org.eclipse.core.runtime
+[2022-03-20 09:29:39] Fetching org.eclipse.core.filesystem_1.9.300.v20220121-1426.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (69.81kB)
+[2022-03-20 09:29:39] Downloading org.eclipse.mylyn.wikitext.tracwiki
+[2022-03-20 09:29:39] Fetching org.eclipse.core.runtime_3.24.100.v20220211-2001.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (70.8kB)
+[2022-03-20 09:29:39] Fetching org.eclipse.oomph.base_1.16.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (69.39kB)
+[2022-03-20 09:29:39] Fetching org.eclipse.mylyn.wikitext.tracwiki_3.0.42.20220107230029.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (72.45kB)
+[2022-03-20 09:29:40] Downloading org.eclipse.equinox.p2.jarprocessor
+[2022-03-20 09:29:40] Fetching org.eclipse.equinox.p2.jarprocessor_1.2.200.v20220207-0719.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (74.12kB)
+[2022-03-20 09:29:40] Fetching org.eclipse.equinox.p2.ui.sdk_1.2.4.v20220213-1624.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:29:40] Downloading org.eclipse.equinox.p2.core
+[2022-03-20 09:29:40] Downloading org.eclipse.ecf.provider.filetransfer.httpclient5
+[2022-03-20 09:29:40] Fetching org.eclipse.ecf.provider.filetransfer.httpclient5_1.0.300.v20220215-0126.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (82.96kB)
+[2022-03-20 09:29:40] Downloading org.eclipse.mylyn.wikitext.mediawiki
+[2022-03-20 09:29:40] Fetching org.eclipse.mylyn.wikitext.mediawiki_3.0.42.20220107230029.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (82.99kB)
+[2022-03-20 09:29:40] Downloading org.eclipse.mylyn.wikitext.markdown
+[2022-03-20 09:29:40] Downloading org.eclipse.equinox.p2.touchpoint.natives
+[2022-03-20 09:29:40] Fetching org.eclipse.mylyn.wikitext.markdown_3.0.42.20220107230029.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (85.24kB)
+[2022-03-20 09:29:40] Fetching org.eclipse.equinox.p2.touchpoint.natives_1.4.300.v20220210-1319.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (85.88kB)
+[2022-03-20 09:29:40] Downloading org.eclipse.debug.ui.launchview
+[2022-03-20 09:29:40] Downloading org.eclipse.oomph.preferences
+[2022-03-20 09:29:41] Fetching org.eclipse.debug.ui.launchview_1.0.100.v20220121-1856.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (85.98kB)
+[2022-03-20 09:29:41] Fetching org.eclipse.equinox.p2.core_2.9.0.v20220210-1157.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (76.5kB)
+[2022-03-20 09:29:41] Fetching org.eclipse.oomph.preferences_1.13.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (86.98kB)
+[2022-03-20 09:29:41] Downloading org.eclipse.mylyn.wikitext.textile
+[2022-03-20 09:29:41] Fetching org.eclipse.mylyn.wikitext.textile_3.0.42.20220107230029.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (90.26kB)
+[2022-03-20 09:29:41] Downloading org.eclipse.mylyn.wikitext.confluence
+[2022-03-20 09:29:41] Fetching org.eclipse.mylyn.wikitext.confluence_3.0.42.20220107230029.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (93.02kB)
+[2022-03-20 09:29:41] Downloading org.eclipse.text.quicksearch
+[2022-03-20 09:29:41] Downloading org.eclipse.jdt.ui
+[2022-03-20 09:29:41] Fetching org.eclipse.text.quicksearch_1.1.300.v20211203-1705.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (95.68kB)
+[2022-03-20 09:29:41] Fetching org.eclipse.jdt.ui_3.26.0.v20220222-0629.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (11.16MB)
+[2022-03-20 09:29:41] Downloading org.eclipse.jdt.doc.user
+[2022-03-20 09:29:41] Downloading org.eclipse.wildwebdeveloper.xml
+[2022-03-20 09:29:42] Fetching org.eclipse.jdt.doc.user_3.15.1300.v20220302-1215.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (8.65MB)
+[2022-03-20 09:29:42] Fetching org.eclipse.wildwebdeveloper.xml_0.13.3.202202030858.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (7.32MB)
+[2022-03-20 09:29:42] Downloading org.eclipse.jdt.core
+[2022-03-20 09:29:42] Downloading org.bouncycastle.bcprov
+[2022-03-20 09:29:42] Downloading org.eclipse.platform.doc.user
+[2022-03-20 09:29:42] Fetching org.eclipse.jdt.core_3.29.0.v20220214-1307.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (6.66MB)
+[2022-03-20 09:29:42] Fetching org.eclipse.jdt.ui_3.26.0.v20220222-0629.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:29:43] Fetching org.bouncycastle.bcprov_1.70.0.v20220105-1522.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (5.58MB)
+[2022-03-20 09:29:43] Fetching org.eclipse.wildwebdeveloper.xml_0.13.3.202202030858.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:29:43] Fetching org.eclipse.jdt.doc.user_3.15.1300.v20220302-1215.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:29:43] Downloading org.eclipse.m2e.maven.runtime
+[2022-03-20 09:29:43] Fetching org.eclipse.jdt.core_3.29.0.v20220214-1307.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:29:44] Fetching org.bouncycastle.bcprov_1.70.0.v20220105-1522.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:29:44] Fetching org.eclipse.platform.doc.user_4.23.0.v20220302-1425.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (5.14MB)
+[2022-03-20 09:29:44] Fetching org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (4.98MB)
+[2022-03-20 09:29:45] Fetching org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:29:45] Fetching org.eclipse.platform.doc.user_4.23.0.v20220302-1425.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (5.14MB)
+[2022-03-20 09:29:46] Fetching org.eclipse.platform.doc.user_4.23.0.v20220302-1425.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:29:57] Downloading org.eclipse.egit.doc
+[2022-03-20 09:29:58] Fetching org.eclipse.egit.doc_6.1.0.202203080745-r.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (4.54MB)
+[2022-03-20 09:30:00] Fetching org.eclipse.egit.doc_6.1.0.202203080745-r.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:20] Downloading org.eclipse.egit.ui
+[2022-03-20 09:30:21] Downloading org.eclipse.ui.workbench
+[2022-03-20 09:30:21] Fetching org.eclipse.ui.workbench_3.125.0.v20220308-0722.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (3.49MB)
+[2022-03-20 09:30:21] Fetching org.eclipse.egit.ui_6.1.0.202203080745-r.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (3.84MB)
+[2022-03-20 09:30:22] Fetching org.eclipse.ui.workbench_3.125.0.v20220308-0722.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:22] Downloading org.eclipse.debug.ui
+[2022-03-20 09:30:23] Fetching org.eclipse.egit.ui_6.1.0.202203080745-r.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:23] Fetching org.eclipse.debug.ui_3.16.0.v20220228-0706.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (2.97MB)
+[2022-03-20 09:30:24] Fetching org.eclipse.debug.ui_3.16.0.v20220228-0706.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:25] Downloading org.eclipse.jgit
+[2022-03-20 09:30:26] Fetching org.eclipse.jgit_6.1.0.202203080745-r.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (2.8MB)
+[2022-03-20 09:30:27] Fetching org.eclipse.jgit_6.1.0.202203080745-r.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:36] Downloading org.eclipse.oomph.setup.doc
+[2022-03-20 09:30:37] Fetching org.eclipse.oomph.setup.doc_1.13.0.v20220222-1048.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (2.49MB)
+[2022-03-20 09:30:38] Fetching org.eclipse.oomph.setup.doc_1.13.0.v20220222-1048.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:39] Downloading org.eclipse.swt.win32.win32.x86_64
+[2022-03-20 09:30:40] Fetching org.eclipse.swt.win32.win32.x86_64_3.119.0.v20220223-1102.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (2.47MB)
+[2022-03-20 09:30:41] Fetching org.eclipse.swt.win32.win32.x86_64_3.119.0.v20220223-1102.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:42] Downloading org.eclipse.ui.ide
+[2022-03-20 09:30:42] Fetching org.eclipse.ui.ide_3.18.500.v20220215-1304.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (2.44MB)
+[2022-03-20 09:30:43] Fetching org.eclipse.ui.ide_3.18.500.v20220215-1304.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:47] Downloading org.eclipse.jdt.core.manipulation
+[2022-03-20 09:30:47] Downloading org.apache.sshd.osgi
+[2022-03-20 09:30:47] Downloading org.eclipse.jdt.debug.ui
+[2022-03-20 09:30:47] Fetching org.eclipse.jdt.core.manipulation_1.16.0.v20220214-0655.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (1.91MB)
+[2022-03-20 09:30:47] Fetching org.apache.sshd.osgi_2.8.0.v20211227-1750.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (1.83MB)
+[2022-03-20 09:30:47] Fetching org.eclipse.jdt.debug.ui_3.12.600.v20220226-0801.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (1.65MB)
+[2022-03-20 09:30:48] Downloading org.apache.xerces
+[2022-03-20 09:30:48] Fetching org.eclipse.jdt.core.manipulation_1.16.0.v20220214-0655.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:49] Fetching org.eclipse.jdt.debug.ui_3.12.600.v20220226-0801.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:49] Fetching org.apache.xerces_2.12.2.v20220131-0835.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (1.5MB)
+[2022-03-20 09:30:49] Fetching org.apache.sshd.osgi_2.8.0.v20211227-1750.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:49] Downloading org.eclipse.osgi
+[2022-03-20 09:30:50] Fetching org.eclipse.osgi_3.17.200.v20220215-2237.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (1.46MB)
+[2022-03-20 09:30:50] Fetching org.apache.xerces_2.12.2.v20220131-0835.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:51] Fetching org.eclipse.osgi_3.17.200.v20220215-2237.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:55] Downloading org.eclipse.team.ui
+[2022-03-20 09:30:55] Downloading com.sun.jna
+[2022-03-20 09:30:55] Fetching org.eclipse.team.ui_3.9.200.v20211130-1532.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (1.42MB)
+[2022-03-20 09:30:55] Fetching com.sun.jna_4.5.1.v20210503-0343.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (1.41MB)
+[2022-03-20 09:30:56] Fetching org.eclipse.team.ui_3.9.200.v20211130-1532.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:57] Fetching com.sun.jna_4.5.1.v20210503-0343.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:57] Downloading org.eclipse.mylyn.wikitext.help.ui
+[2022-03-20 09:30:57] Downloading org.eclipse.emf.ecore
+[2022-03-20 09:30:57] Fetching org.eclipse.mylyn.wikitext.help.ui_3.0.42.202201072301.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (1.28MB)
+[2022-03-20 09:30:57] Fetching org.eclipse.emf.ecore_2.26.0.v20220123-0838.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (1.26MB)
+[2022-03-20 09:30:58] Fetching org.eclipse.platform_root_4.23.0.v20220308-0722 from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/binary/ (196B)
+[2022-03-20 09:30:58] Downloading org.eclipse.jface
+[2022-03-20 09:30:58] Fetching org.eclipse.jface_3.25.0.v20220218-1636.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (1.11MB)
+[2022-03-20 09:30:59] Fetching org.eclipse.emf.ecore_2.26.0.v20220123-0838.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:59] Fetching org.eclipse.mylyn.wikitext.help.ui_3.0.42.202201072301.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:59] Fetching org.eclipse.jface_3.25.0.v20220218-1636.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:30:59] Downloading org.eclipse.ant.ui
+[2022-03-20 09:31:00] Downloading org.eclipse.jface.text
+[2022-03-20 09:31:00] Fetching org.eclipse.ant.ui_3.8.200.v20220214-2001.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (1.04MB)
+[2022-03-20 09:31:00] Fetching org.eclipse.jface.text_3.20.0.v20220218-1549.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (1.03MB)
+[2022-03-20 09:31:01] Downloading org.eclipse.jdt.debug
+[2022-03-20 09:31:01] Fetching org.eclipse.ant.ui_3.8.200.v20220214-2001.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:01] Fetching org.eclipse.jdt.debug_3.19.100.v20220301-0551.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (908.78kB)
+[2022-03-20 09:31:01] Fetching org.eclipse.jface.text_3.20.0.v20220218-1549.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:01] Downloading org.eclipse.core.resources
+[2022-03-20 09:31:02] Fetching org.eclipse.jdt.debug_3.19.100.v20220301-0551.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:02] Fetching org.eclipse.core.resources_3.16.100.v20220214-1012.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (880.97kB)
+[2022-03-20 09:31:03] Downloading org.eclipse.wst.xml.core
+[2022-03-20 09:31:03] Fetching org.eclipse.wst.xml.core_1.2.500.v202201311924.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (808.73kB)
+[2022-03-20 09:31:03] Fetching org.eclipse.core.resources_3.16.100.v20220214-1012.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:04] Fetching org.eclipse.wst.xml.core_1.2.500.v202201311924.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:05] Downloading org.eclipse.compare
+[2022-03-20 09:31:05] Fetching org.eclipse.compare_3.8.300.v20220121-1000.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (804.8kB)
+[2022-03-20 09:31:06] Downloading org.eclipse.oomph.setup.ui
+[2022-03-20 09:31:07] Fetching org.eclipse.compare_3.8.300.v20220121-1000.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:07] Downloading org.eclipse.epp.mpc.help.ui
+[2022-03-20 09:31:07] Fetching org.eclipse.epp.mpc.help.ui_1.9.3.v20220121-1317.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (749.86kB)
+[2022-03-20 09:31:07] Fetching org.eclipse.oomph.setup.ui_1.23.0.v20220301-0958.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (784.14kB)
+[2022-03-20 09:31:07] Downloading org.eclipse.help.webapp
+[2022-03-20 09:31:07] Fetching org.eclipse.help.webapp_3.10.600.v20220121-1305.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (736.46kB)
+[2022-03-20 09:31:08] Fetching org.eclipse.oomph.setup.ui_1.23.0.v20220301-0958.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:08] Fetching org.eclipse.epp.mpc.help.ui_1.9.3.v20220121-1317.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:08] Fetching org.eclipse.help.webapp_3.10.600.v20220121-1305.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:08] Downloading org.eclipse.m2e.core.ui
+[2022-03-20 09:31:09] Fetching org.eclipse.m2e.core.ui_1.19.0.20220206-1032.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (715.19kB)
+[2022-03-20 09:31:10] Downloading org.eclipse.ui.workbench.texteditor
+[2022-03-20 09:31:10] Fetching org.eclipse.m2e.core.ui_1.19.0.20220206-1032.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:10] Downloading org.eclipse.platform
+[2022-03-20 09:31:10] Fetching org.eclipse.ui.workbench.texteditor_3.16.400.v20220218-1619.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (674.85kB)
+[2022-03-20 09:31:10] Downloading org.eclipse.equinox.p2.ui
+[2022-03-20 09:31:11] Fetching org.eclipse.platform_4.23.0.v20220308-0310.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (671.86kB)
+[2022-03-20 09:31:11] Downloading org.eclipse.cdt.core.win32.x86_64
+[2022-03-20 09:31:11] Downloading org.eclipse.m2e.core
+[2022-03-20 09:31:11] Fetching org.eclipse.equinox.p2.ui_2.7.400.v20220214-1604.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (658.08kB)
+[2022-03-20 09:31:11] Fetching org.eclipse.m2e.core_1.18.4.20220208-0831.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (634.24kB)
+[2022-03-20 09:31:12] Fetching org.eclipse.ui.workbench.texteditor_3.16.400.v20220218-1619.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:12] Fetching org.eclipse.cdt.core.win32.x86_64_6.0.500.202203091838.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (640.96kB)
+[2022-03-20 09:31:12] Downloading org.eclipse.egit.core
+[2022-03-20 09:31:12] Fetching org.eclipse.platform_4.23.0.v20220308-0310.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:12] Fetching org.eclipse.equinox.p2.ui_2.7.400.v20220214-1604.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:12] Fetching org.eclipse.egit.core_6.1.0.202203080745-r.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (624.94kB)
+[2022-03-20 09:31:12] Fetching org.eclipse.m2e.core_1.18.4.20220208-0831.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:13] Fetching org.eclipse.cdt.core.win32.x86_64_6.0.500.202203091838.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:13] Fetching org.eclipse.egit.core_6.1.0.202203080745-r.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:14] Downloading org.eclipse.epp.mpc.ui
+[2022-03-20 09:31:14] Downloading org.eclipse.jdt.launching
+[2022-03-20 09:31:14] Fetching org.eclipse.epp.mpc.ui_1.9.3.v20220121-1317.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (604.75kB)
+[2022-03-20 09:31:14] Downloading org.eclipse.jdt.junit
+[2022-03-20 09:31:14] Fetching org.eclipse.jdt.junit_3.14.0.v20220127-1854.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (516.78kB)
+[2022-03-20 09:31:15] Fetching org.eclipse.jdt.launching_3.19.500.v20220125-2008.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (563.5kB)
+[2022-03-20 09:31:15] Downloading org.eclipse.oomph.setup.editor
+[2022-03-20 09:31:15] Fetching org.eclipse.epp.mpc.ui_1.9.3.v20220121-1317.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:15] Downloading org.eclipse.search
+[2022-03-20 09:31:15] Fetching org.eclipse.oomph.setup.editor_1.21.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (511.58kB)
+[2022-03-20 09:31:16] Fetching org.eclipse.jdt.junit_3.14.0.v20220127-1854.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:16] Fetching org.eclipse.search_3.14.100.v20220120-1549.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (489.96kB)
+[2022-03-20 09:31:16] Fetching org.eclipse.jdt.launching_3.19.500.v20220125-2008.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:16] Fetching org.eclipse.oomph.setup.editor_1.21.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:17] Fetching org.eclipse.search_3.14.100.v20220120-1549.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:17] Downloading org.eclipse.lsp4e
+[2022-03-20 09:31:17] Fetching org.eclipse.lsp4e_0.13.9.202202021529.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (479.06kB)
+[2022-03-20 09:31:17] Downloading org.eclipse.wst.sse.core
+[2022-03-20 09:31:18] Fetching org.eclipse.wst.sse.core_1.2.700.v202112071542.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (476.43kB)
+[2022-03-20 09:31:18] Downloading org.eclipse.mylyn.wikitext.ui
+[2022-03-20 09:31:18] Fetching org.eclipse.mylyn.wikitext.ui_3.0.42.202201072301.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (438.75kB)
+[2022-03-20 09:31:18] Downloading org.eclipse.ui
+[2022-03-20 09:31:18] Fetching org.eclipse.lsp4e_0.13.9.202202021529.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:18] Downloading org.eclipse.help.base
+[2022-03-20 09:31:19] Downloading org.eclipse.team.core
+[2022-03-20 09:31:19] Fetching org.eclipse.wst.sse.core_1.2.700.v202112071542.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:19] Fetching org.eclipse.ui_3.201.0.v20220124-1108.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (432.55kB)
+[2022-03-20 09:31:19] Downloading org.eclipse.oomph.ui
+[2022-03-20 09:31:19] Downloading org.eclipse.m2e.editor
+[2022-03-20 09:31:19] Fetching org.eclipse.team.core_3.9.300.v20220204-0611.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (401.7kB)
+[2022-03-20 09:31:19] Fetching org.eclipse.mylyn.wikitext.ui_3.0.42.202201072301.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:19] Fetching org.eclipse.oomph.ui_1.16.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (400.48kB)
+[2022-03-20 09:31:20] Fetching org.eclipse.m2e.editor_1.18.3.20220210-1034.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (398.03kB)
+[2022-03-20 09:31:20] Fetching org.eclipse.help.base_4.3.600.v20220308-0310.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (432.51kB)
+[2022-03-20 09:31:20] Fetching org.eclipse.ui_3.201.0.v20220124-1108.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:20] Downloading org.eclipse.debug.core
+[2022-03-20 09:31:20] Fetching org.eclipse.team.core_3.9.300.v20220204-0611.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:20] Fetching org.eclipse.oomph.ui_1.16.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:20] Downloading org.eclipse.oomph.p2.core
+[2022-03-20 09:31:21] Fetching org.eclipse.m2e.editor_1.18.3.20220210-1034.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:21] Downloading org.apache.sshd.sftp
+[2022-03-20 09:31:21] Fetching org.eclipse.oomph.p2.core_1.21.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (387.3kB)
+[2022-03-20 09:31:21] Fetching org.eclipse.help.base_4.3.600.v20220308-0310.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:21] Downloading org.eclipse.oomph.p2.ui
+[2022-03-20 09:31:21] Fetching org.eclipse.debug.core_3.19.0.v20220125-2302.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (396.72kB)
+[2022-03-20 09:31:21] Fetching org.apache.sshd.sftp_2.8.0.v20211227-1750.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (386.26kB)
+[2022-03-20 09:31:21] Fetching org.eclipse.debug.core_3.19.0.v20220125-2302.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (396.72kB)
+[2022-03-20 09:31:22] Fetching org.eclipse.oomph.p2.ui_1.18.0.v20220301-0958.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (375.48kB)
+[2022-03-20 09:31:22] Fetching org.eclipse.oomph.p2.core_1.21.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:22] Downloading org.eclipse.emf.common
+[2022-03-20 09:31:22] Downloading org.eclipse.mylyn.wikitext
+[2022-03-20 09:31:22] Fetching org.eclipse.emf.common_2.24.0.v20220123-0838.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (367.53kB)
+[2022-03-20 09:31:22] Downloading org.bouncycastle.bcpg
+[2022-03-20 09:31:22] Fetching org.eclipse.mylyn.wikitext_3.0.42.20220107230029.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (363.55kB)
+[2022-03-20 09:31:22] Fetching org.eclipse.debug.core_3.19.0.v20220125-2302.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:23] Fetching org.eclipse.oomph.p2.ui_1.18.0.v20220301-0958.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:23] Fetching org.bouncycastle.bcpg_1.70.0.v20220105-1522.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (359.18kB)
+[2022-03-20 09:31:23] Fetching org.eclipse.emf.common_2.24.0.v20220123-0838.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:23] Downloading org.eclipse.oomph.setup
+[2022-03-20 09:31:23] Fetching org.eclipse.mylyn.wikitext_3.0.42.20220107230029.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:24] Downloading org.apache.httpcomponents.httpcore
+[2022-03-20 09:31:24] Fetching org.eclipse.oomph.setup_1.23.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (358.32kB)
+[2022-03-20 09:31:24] Fetching org.apache.httpcomponents.httpcore_4.4.15.v20220209-2345.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (354.72kB)
+[2022-03-20 09:31:24] Downloading org.eclipse.oomph.setup.ui.questionnaire
+[2022-03-20 09:31:24] Downloading org.eclipse.oomph.setup.core
+[2022-03-20 09:31:24] Fetching org.eclipse.oomph.setup.ui.questionnaire_1.13.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (336.55kB)
+[2022-03-20 09:31:24] Downloading org.eclipse.oomph.p2.doc
+[2022-03-20 09:31:24] Fetching org.eclipse.oomph.p2.doc_1.13.0.v20220222-1048.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (314.71kB)
+[2022-03-20 09:31:25] Fetching org.bouncycastle.bcpg_1.70.0.v20220105-1522.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:25] Fetching org.eclipse.oomph.setup.core_1.23.0.v20220301-0958.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (328.82kB)
+[2022-03-20 09:31:25] Fetching org.apache.httpcomponents.httpcore_4.4.15.v20220209-2345.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:25] Fetching org.eclipse.oomph.setup_1.23.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:25] Downloading org.eclipse.core.databinding.observable
+[2022-03-20 09:31:25] Fetching org.eclipse.oomph.setup.ui.questionnaire_1.13.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:25] Downloading org.eclipse.emf.edit
+[2022-03-20 09:31:25] Fetching org.eclipse.core.databinding.observable_1.12.0.v20211231-1006.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (313kB)
+[2022-03-20 09:31:25] Fetching org.eclipse.oomph.p2.doc_1.13.0.v20220222-1048.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:26] Fetching org.eclipse.emf.edit_2.17.0.v20220201-1551.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (294.61kB)
+[2022-03-20 09:31:26] Fetching org.eclipse.oomph.setup.core_1.23.0.v20220301-0958.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:26] Downloading org.eclipse.core.databinding
+[2022-03-20 09:31:26] Downloading com.google.gson
+[2022-03-20 09:31:26] Downloading org.eclipse.tm.terminal.view.ui
+[2022-03-20 09:31:26] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2022-03-20 09:31:26] Downloading org.eclipse.e4.ui.workbench.renderers.swt
+[2022-03-20 09:31:26] Fetching org.eclipse.core.databinding_1.11.0.v20220118-1028.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (287.81kB)
+[2022-03-20 09:31:26] Fetching org.eclipse.e4.ui.workbench.renderers.swt_0.15.400.v20220308-0630.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (251.6kB)
+[2022-03-20 09:31:27] Fetching com.google.gson_2.8.9.v20220111-1409.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (279.89kB)
+[2022-03-20 09:31:27] Fetching org.eclipse.tm.terminal.view.ui_4.10.200.202201122357.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (276.97kB)
+[2022-03-20 09:31:27] Fetching org.eclipse.emf.edit_2.17.0.v20220201-1551.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:27] Fetching org.eclipse.platform.ide.executable.win32.win32.x86_64_4.23.0.I20220308-0310 from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/binary/ (266.5kB)
+[2022-03-20 09:31:27] Downloading org.eclipse.osgi.compatibility.state
+[2022-03-20 09:31:27] Downloading org.eclipse.epp.mpc.core
+[2022-03-20 09:31:27] Fetching org.eclipse.e4.ui.workbench.renderers.swt_0.15.400.v20220308-0630.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:27] Fetching org.eclipse.osgi.compatibility.state_1.2.600.v20220207-1403.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (249.4kB)
+[2022-03-20 09:31:28] Fetching org.eclipse.tm.terminal.view.ui_4.10.200.202201122357.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:28] Downloading org.eclipse.equinox.p2.publisher.eclipse
+[2022-03-20 09:31:28] Fetching org.eclipse.epp.mpc.core_1.9.3.v20220121-1317.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (248.26kB)
+[2022-03-20 09:31:28] Fetching com.google.gson_2.8.9.v20220111-1409.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:28] Downloading org.eclipse.oomph.util
+[2022-03-20 09:31:28] Fetching org.eclipse.core.databinding_1.11.0.v20220118-1028.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:28] Downloading org.eclipse.equinox.p2.engine
+[2022-03-20 09:31:28] Fetching org.eclipse.equinox.p2.publisher.eclipse_1.4.2.v20220127-1658.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (242.66kB)
+[2022-03-20 09:31:28] Fetching org.eclipse.equinox.p2.engine_2.7.300.v20220209-1714.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (218.82kB)
+[2022-03-20 09:31:28] Fetching org.eclipse.oomph.util_1.18.0.v20220301-0958.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (230.73kB)
+[2022-03-20 09:31:28] Downloading org.eclipse.tm.terminal.control
+[2022-03-20 09:31:29] Fetching org.eclipse.tm.terminal.control_5.3.100.202202251626.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (211.28kB)
+[2022-03-20 09:31:29] Downloading org.eclipse.jgit.ssh.apache
+[2022-03-20 09:31:29] Fetching org.eclipse.jgit.ssh.apache_6.1.0.202203080745-r.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (201.9kB)
+[2022-03-20 09:31:29] Fetching org.eclipse.equinox.p2.engine_2.7.300.v20220209-1714.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/
+[2022-03-20 09:31:29] Downloading org.eclipse.jdt.compiler.tool
+[2022-03-20 09:31:30] Downloading org.eclipse.oomph.setup.edit
+[2022-03-20 09:31:30] Fetching org.eclipse.jdt.compiler.tool_1.3.100.v20211201-1611.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (196.11kB)
+[2022-03-20 09:31:30] Downloading org.eclipse.jdt.junit.core
+[2022-03-20 09:31:30] Fetching org.eclipse.jdt.junit.core_3.11.200.v20220204-2234.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (176.32kB)
+[2022-03-20 09:31:30] Downloading org.eclipse.equinox.p2.repository
+[2022-03-20 09:31:30] Fetching org.eclipse.oomph.setup.edit_1.16.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (178.34kB)
+[2022-03-20 09:31:30] Fetching org.eclipse.equinox.p2.repository_2.6.0.v20220215-0840.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (173.65kB)
+[2022-03-20 09:31:30] Downloading org.eclipse.ui.navigator.resources
+[2022-03-20 09:31:30] Fetching org.eclipse.ui.navigator.resources_3.8.400.v20220203-1803.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (172.29kB)
+[2022-03-20 09:31:30] Downloading org.eclipse.equinox.p2.artifact.repository
+[2022-03-20 09:31:30] Fetching org.eclipse.equinox.p2.artifact.repository_1.4.400.v20220223-1131.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (170.85kB)
+[2022-03-20 09:31:31] Downloading org.eclipse.equinox.security.ui
+[2022-03-20 09:31:31] Downloading org.eclipse.ant.launching
+[2022-03-20 09:31:31] Fetching org.eclipse.equinox.security.ui_1.3.200.v20220115-0654.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (170.59kB)
+[2022-03-20 09:31:32] Downloading org.eclipse.xtext.xbase.lib
+[2022-03-20 09:31:32] Fetching org.eclipse.ant.launching_1.3.200.v20220214-2001.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (161.05kB)
+[2022-03-20 09:31:32] Downloading org.eclipse.ui.genericeditor
+[2022-03-20 09:31:32] Fetching org.eclipse.xtext.xbase.lib_2.26.0.v20220228-0748.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (160.55kB)
+[2022-03-20 09:31:32] Downloading org.eclipse.e4.ui.workbench.swt
+[2022-03-20 09:31:32] Fetching org.eclipse.xtext.xbase.lib_2.26.0.v20220228-0748.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (160.55kB)
+[2022-03-20 09:31:32] Fetching org.eclipse.e4.ui.workbench.swt_0.16.400.v20220222-1128.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (147.16kB)
+[2022-03-20 09:31:32] Fetching org.eclipse.ui.genericeditor_1.2.200.v20211217-1247.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (152.75kB)
+[2022-03-20 09:31:32] Downloading org.eclipse.equinox.common
+[2022-03-20 09:31:32] Downloading org.eclipse.m2e.editor.lemminx
+[2022-03-20 09:31:32] Downloading org.eclipse.ecf.provider.filetransfer
+[2022-03-20 09:31:32] Fetching org.eclipse.m2e.editor.lemminx_1.18.4.20220127-1634.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (131.38kB)
+[2022-03-20 09:31:32] Fetching org.eclipse.ecf.provider.filetransfer_3.2.800.v20220215-0126.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (129.12kB)
+[2022-03-20 09:31:32] Downloading org.eclipse.oomph.resources
+[2022-03-20 09:31:33] Fetching org.eclipse.equinox.common_3.16.0.v20220211-2322.jar from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (144.49kB)
+[2022-03-20 09:31:33] Fetching org.eclipse.oomph.resources_1.16.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (121.24kB)
+[2022-03-20 09:31:33] Downloading org.eclipse.core.filebuffers
+[2022-03-20 09:31:33] Fetching org.eclipse.oomph.resources_1.16.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (121.24kB)
+[2022-03-20 09:31:33] Fetching org.eclipse.core.filebuffers_3.7.200.v20220202-1008.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (115.6kB)
+[2022-03-20 09:31:33] Downloading org.eclipse.oomph.workingsets.editor
+[2022-03-20 09:31:33] Fetching org.eclipse.oomph.workingsets.editor_1.13.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (114.58kB)
+[2022-03-20 09:31:33] Downloading org.eclipse.equinox.security
+[2022-03-20 09:31:33] Fetching org.eclipse.equinox.security_1.3.900.v20220108-1321.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (113.21kB)
+[2022-03-20 09:31:33] Downloading org.eclipse.ui.ide.application
+[2022-03-20 09:31:33] Downloading org.eclipse.mylyn.wikitext.asciidoc
+[2022-03-20 09:31:33] Downloading org.eclipse.equinox.p2.director
+[2022-03-20 09:31:34] Fetching org.eclipse.mylyn.wikitext.asciidoc_3.0.42.20220107230029.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (112.58kB)
+[2022-03-20 09:31:34] Fetching org.eclipse.ui.ide.application_1.4.300.v20220114-0859.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (113.09kB)
+[2022-03-20 09:31:34] Downloading org.eclipse.emf.edit.ui
+[2022-03-20 09:31:34] Fetching org.eclipse.equinox.p2.director_2.5.200.v20220127-1112.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (110.36kB)
+[2022-03-20 09:31:34] Fetching org.eclipse.emf.edit.ui_2.21.0.v20220226-1304.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (345.11kB)
+[2022-03-20 09:31:34] Downloading org.eclipse.core.jobs
+[2022-03-20 09:31:34] Downloading org.eclipse.ant.core
+[2022-03-20 09:31:34] Downloading org.eclipse.equinox.p2.ui.sdk.scheduler
+[2022-03-20 09:31:34] Fetching org.eclipse.ant.core_3.6.300.v20220214-2001.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (107.38kB)
+[2022-03-20 09:31:34] Fetching org.eclipse.core.jobs_3.12.100.v20220120-1329.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (108.25kB)
+[2022-03-20 09:31:34] Downloading org.eclipse.oomph.setup.sync
+[2022-03-20 09:31:34] Fetching org.eclipse.equinox.p2.ui.sdk.scheduler_1.5.300.v20211214-1242.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (103.44kB)
+[2022-03-20 09:31:35] Fetching org.eclipse.oomph.setup.sync_1.14.0.v20220301-0958.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (103.43kB)
+[2022-03-20 09:31:35] Downloading org.eclipse.equinox.p2.publisher
+[2022-03-20 09:31:35] Fetching org.eclipse.equinox.p2.publisher_1.7.0.v20220127-1312.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (102.07kB)
+[2022-03-20 09:31:35] Downloading org.eclipse.m2e.launching
+[2022-03-20 09:31:35] Fetching org.eclipse.m2e.launching_1.18.0.20220202-1957.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (97.37kB)
+[2022-03-20 09:36:09] Fetching org.eclipse.egit_6.1.0.202203080745-r.jar from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/plugins/ (11.57kB)
+[2022-03-20 09:41:38] Fetching org.eclipse.mylyn.wikitext.asciidoc.ui_3.0.42.202201072301.jar from https://ftp.yz.yamagata-u.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/ (10.51kB)
+[2022-03-20 09:41:38] Mirrored 169 artifacts from https://mirrors.nju.edu.cn/eclipse//releases/2022-03/202203161000/ at 178kb/s
+[2022-03-20 09:41:38] Mirrored 38 artifacts from https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/ at 170kb/s
+[2022-03-20 09:41:38] Mirrored 1 artifacts from https://ftp.harukasan.org/eclipse//releases/2022-03/202203161000/ at 19kb/s
+[2022-03-20 09:41:38] Mirrored 1 artifacts from https://ftp.harukasan.org/eclipse/releases/2022-03/202203161000/ at 18kb/s
+[2022-03-20 09:41:38] Mirrored 1 artifacts from https://download.eclipse.org/releases/2022-03/202203161000/ at 12kb/s
+[2022-03-20 09:41:38] Mirrored 1 artifacts from https://mirrors.neusoft.edu.cn/eclipse/releases/2022-03/202203161000/ at 9kb/s
+[2022-03-20 09:41:38] Mirrored 1 artifacts from https://mirror.library.ucy.ac.cy/eclipse/releases/2022-03/202203161000/ at 5kb/s
+[2022-03-20 09:41:38] Mirrored 1 artifacts from https://eclipse.mirror.rafal.ca/releases/2022-03/202203161000/ at 4kb/s
+[2022-03-20 09:41:38] Mirrored 1 artifacts from https://mirror.umd.edu/eclipse/releases/2022-03/202203161000/ at 4kb/s
+[2022-03-20 09:41:38] Mirrored 1 artifacts from https://ftp.yz.yamagata-u.ac.jp/pub/eclipse/releases/2022-03/202203161000/ at 0kb/s
+[2022-03-20 09:41:38] Mirrored 1 artifacts from https://mirror.kakao.com/eclipse/releases/2022-03/202203161000/ at 0kb/s with 1 failures
+[2022-03-20 09:41:38] Mirrored 1 artifacts from https://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/2022-03/202203161000/ at 0kb/s with 1 failures
+[2022-03-20 09:41:38] Collected 215 artifacts for https://download.eclipse.org/releases/2022-03/202203161000 in 730.156s
+[2022-03-20 09:41:45] An error was detected while performing the engine operation and the changes are being rolled back. See the log for details.
+[2022-03-20 09:41:45] ERROR: org.eclipse.equinox.p2.engine code=4 An error occurred during the org.eclipse.equinox.internal.p2.engine.phases.CheckTrust phase.
+  at org.eclipse.oomph.util.OomphPlugin.coreException(OomphPlugin.java:295)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:558)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+  ERROR: org.eclipse.equinox.p2.engine code=0 session context was:(profile=D__soft_java_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.CheckTrust, operand=, action=).
+  ERROR: org.eclipse.equinox.p2.engine code=0 Error reading signed content.
+  java.io.FileNotFoundException: C:\Users\didshow\.p2\pool\plugins\com.ibm.icu_67.1.0.v20200706-1749.jar (系统找不到指定的文件。)
+    at java.base/java.io.FileInputStream.open0(Native Method)
+    at java.base/java.io.FileInputStream.open(Unknown Source)
+    at java.base/java.io.FileInputStream.<init>(Unknown Source)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.lambda$2(SignedContentFromBundleFile.java:197)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.getSignedEntries(SignedContentFromBundleFile.java:222)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.<init>(SignedContentFromBundleFile.java:192)
+    at org.eclipse.osgi.internal.signedcontent.SignedBundleHook.getSignedContent(SignedBundleHook.java:170)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.checkCertificates(CertificateChecker.java:162)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.start(CertificateChecker.java:116)
+    at org.eclipse.equinox.internal.p2.engine.phases.CheckTrust.completePhase(CheckTrust.java:64)
+    at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+    at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+    at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+    at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:48)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:554)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+    at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+
+[2022-03-20 09:41:45] 
+[2022-03-20 09:42:12] Executing bootstrap tasks
+[2022-03-20 09:42:12] OpenJDK Runtime Environment 17.0.2+8
+[2022-03-20 09:42:12] Product org.eclipse.products.epp.package.java.2022-03
+[2022-03-20 09:42:12] Bundle org.eclipse.oomph.setup 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:42:12] Bundle org.eclipse.oomph.setup.core 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:42:12] Bundle org.eclipse.oomph.setup.p2 1.18.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:42:12] Performing P2 Director (Eclipse IDE for Java Developers (2022-03))
+[2022-03-20 09:42:12] Offline = false
+[2022-03-20 09:42:12] Mirrors = true
+[2022-03-20 09:42:12] Resolving 17 requirements from 3 repositoriesto D:\soft\java\eclipse
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.23.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-03-20 09:42:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-03-20 09:42:12] Repository https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:42:12] Repository https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:42:12] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2022-03-20 09:42:15] Calculating requirements and dependencies.
+[2022-03-20 09:42:16] Computing prerequisite plan
+[2022-03-20 09:42:24] Collecting 1 artifacts from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:42:24] Downloading epp.package.java.executable.win32.win32.x86_64
+[2022-03-20 09:42:24] Collected 1 artifacts for https://download.eclipse.org/technology/epp/packages/2022-03/202203101200 in 0s
+[2022-03-20 09:42:24] Collecting 3 artifacts from https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:42:27] Downloading org.eclipse.platform_root
+[2022-03-20 09:42:27] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2022-03-20 09:42:27] Downloading org.eclipse.rcp_root
+[2022-03-20 09:42:27] Collected 3 artifacts for https://download.eclipse.org/releases/2022-03/202203161000 in 3.215s
+[2022-03-20 09:42:34] An error was detected while performing the engine operation and the changes are being rolled back. See the log for details.
+[2022-03-20 09:42:34] ERROR: org.eclipse.equinox.p2.engine code=4 An error occurred during the org.eclipse.equinox.internal.p2.engine.phases.CheckTrust phase.
+  at org.eclipse.oomph.util.OomphPlugin.coreException(OomphPlugin.java:295)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:558)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+  ERROR: org.eclipse.equinox.p2.engine code=0 session context was:(profile=D__soft_java_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.CheckTrust, operand=, action=).
+  ERROR: org.eclipse.equinox.p2.engine code=0 Error reading signed content.
+  java.io.FileNotFoundException: C:\Users\didshow\.p2\pool\plugins\com.ibm.icu_67.1.0.v20200706-1749.jar (系统找不到指定的文件。)
+    at java.base/java.io.FileInputStream.open0(Native Method)
+    at java.base/java.io.FileInputStream.open(Unknown Source)
+    at java.base/java.io.FileInputStream.<init>(Unknown Source)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.lambda$2(SignedContentFromBundleFile.java:197)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.getSignedEntries(SignedContentFromBundleFile.java:222)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.<init>(SignedContentFromBundleFile.java:192)
+    at org.eclipse.osgi.internal.signedcontent.SignedBundleHook.getSignedContent(SignedBundleHook.java:170)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.checkCertificates(CertificateChecker.java:162)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.start(CertificateChecker.java:116)
+    at org.eclipse.equinox.internal.p2.engine.phases.CheckTrust.completePhase(CheckTrust.java:64)
+    at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+    at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+    at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+    at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:48)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:554)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+    at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+
+[2022-03-20 09:42:34] 
+[2022-03-20 09:42:36] Executing bootstrap tasks
+[2022-03-20 09:42:36] OpenJDK Runtime Environment 17.0.2+8
+[2022-03-20 09:42:36] Product org.eclipse.products.epp.package.java.2022-03
+[2022-03-20 09:42:36] Bundle org.eclipse.oomph.setup 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:42:36] Bundle org.eclipse.oomph.setup.core 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:42:36] Bundle org.eclipse.oomph.setup.p2 1.18.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:42:36] Performing P2 Director (Eclipse IDE for Java Developers (2022-03))
+[2022-03-20 09:42:36] Offline = false
+[2022-03-20 09:42:36] Mirrors = true
+[2022-03-20 09:42:36] Resolving 17 requirements from 3 repositoriesto D:\soft\java\eclipse
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.23.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-03-20 09:42:36] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-03-20 09:42:36] Repository https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:42:36] Repository https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:42:36] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2022-03-20 09:42:40] Calculating requirements and dependencies.
+[2022-03-20 09:42:40] Computing prerequisite plan
+[2022-03-20 09:42:46] Collecting 1 artifacts from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:42:46] Downloading epp.package.java.executable.win32.win32.x86_64
+[2022-03-20 09:42:46] Collected 1 artifacts for https://download.eclipse.org/technology/epp/packages/2022-03/202203101200 in 0.008s
+[2022-03-20 09:42:46] Collecting 3 artifacts from https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:42:48] Downloading org.eclipse.platform_root
+[2022-03-20 09:42:48] Downloading org.eclipse.rcp_root
+[2022-03-20 09:42:48] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2022-03-20 09:42:48] Collected 3 artifacts for https://download.eclipse.org/releases/2022-03/202203161000 in 1.827s
+[2022-03-20 09:42:54] An error was detected while performing the engine operation and the changes are being rolled back. See the log for details.
+[2022-03-20 09:42:54] ERROR: org.eclipse.equinox.p2.engine code=4 An error occurred during the org.eclipse.equinox.internal.p2.engine.phases.CheckTrust phase.
+  at org.eclipse.oomph.util.OomphPlugin.coreException(OomphPlugin.java:295)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:558)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+  ERROR: org.eclipse.equinox.p2.engine code=0 session context was:(profile=D__soft_java_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.CheckTrust, operand=, action=).
+  ERROR: org.eclipse.equinox.p2.engine code=0 Error reading signed content.
+  java.io.FileNotFoundException: C:\Users\didshow\.p2\pool\plugins\com.ibm.icu_67.1.0.v20200706-1749.jar (系统找不到指定的文件。)
+    at java.base/java.io.FileInputStream.open0(Native Method)
+    at java.base/java.io.FileInputStream.open(Unknown Source)
+    at java.base/java.io.FileInputStream.<init>(Unknown Source)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.lambda$2(SignedContentFromBundleFile.java:197)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.getSignedEntries(SignedContentFromBundleFile.java:222)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.<init>(SignedContentFromBundleFile.java:192)
+    at org.eclipse.osgi.internal.signedcontent.SignedBundleHook.getSignedContent(SignedBundleHook.java:170)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.checkCertificates(CertificateChecker.java:162)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.start(CertificateChecker.java:116)
+    at org.eclipse.equinox.internal.p2.engine.phases.CheckTrust.completePhase(CheckTrust.java:64)
+    at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+    at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+    at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+    at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:48)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:554)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+    at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+
+[2022-03-20 09:42:54] 
+[2022-03-20 09:43:17] Executing bootstrap tasks
+[2022-03-20 09:43:17] OpenJDK Runtime Environment 17.0.2+8
+[2022-03-20 09:43:17] Product org.eclipse.products.epp.package.java.2022-03
+[2022-03-20 09:43:17] Bundle org.eclipse.oomph.setup 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:43:17] Bundle org.eclipse.oomph.setup.core 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:43:17] Bundle org.eclipse.oomph.setup.p2 1.18.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:43:17] Performing P2 Director (Eclipse IDE for Java Developers (2022-03))
+[2022-03-20 09:43:17] Offline = false
+[2022-03-20 09:43:17] Mirrors = true
+[2022-03-20 09:43:17] Resolving 17 requirements from 3 repositoriesto D:\soft\java\eclipse
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.23.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-03-20 09:43:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-03-20 09:43:17] Repository https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:43:17] Repository https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:43:17] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2022-03-20 09:43:20] Calculating requirements and dependencies.
+[2022-03-20 09:43:21] Computing prerequisite plan
+[2022-03-20 09:43:26] Collecting 1 artifacts from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:43:26] Downloading epp.package.java.executable.win32.win32.x86_64
+[2022-03-20 09:43:26] Collected 1 artifacts for https://download.eclipse.org/technology/epp/packages/2022-03/202203101200 in 0s
+[2022-03-20 09:43:26] Collecting 3 artifacts from https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:43:31] Downloading org.eclipse.rcp_root
+[2022-03-20 09:43:31] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2022-03-20 09:43:31] Downloading org.eclipse.platform_root
+[2022-03-20 09:43:31] Collected 3 artifacts for https://download.eclipse.org/releases/2022-03/202203161000 in 5.065s
+[2022-03-20 09:43:37] An error was detected while performing the engine operation and the changes are being rolled back. See the log for details.
+[2022-03-20 09:43:37] ERROR: org.eclipse.equinox.p2.engine code=4 An error occurred during the org.eclipse.equinox.internal.p2.engine.phases.CheckTrust phase.
+  at org.eclipse.oomph.util.OomphPlugin.coreException(OomphPlugin.java:295)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:558)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+  ERROR: org.eclipse.equinox.p2.engine code=0 session context was:(profile=D__soft_java_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.CheckTrust, operand=, action=).
+  ERROR: org.eclipse.equinox.p2.engine code=0 Error reading signed content.
+  java.io.FileNotFoundException: C:\Users\didshow\.p2\pool\plugins\com.ibm.icu_67.1.0.v20200706-1749.jar (系统找不到指定的文件。)
+    at java.base/java.io.FileInputStream.open0(Native Method)
+    at java.base/java.io.FileInputStream.open(Unknown Source)
+    at java.base/java.io.FileInputStream.<init>(Unknown Source)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.lambda$2(SignedContentFromBundleFile.java:197)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.getSignedEntries(SignedContentFromBundleFile.java:222)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.<init>(SignedContentFromBundleFile.java:192)
+    at org.eclipse.osgi.internal.signedcontent.SignedBundleHook.getSignedContent(SignedBundleHook.java:170)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.checkCertificates(CertificateChecker.java:162)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.start(CertificateChecker.java:116)
+    at org.eclipse.equinox.internal.p2.engine.phases.CheckTrust.completePhase(CheckTrust.java:64)
+    at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+    at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+    at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+    at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:48)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:554)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+    at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+
+[2022-03-20 09:43:37] 
+[2022-03-20 09:43:39] Executing bootstrap tasks
+[2022-03-20 09:43:39] OpenJDK Runtime Environment 17.0.2+8
+[2022-03-20 09:43:39] Product org.eclipse.products.epp.package.java.2022-03
+[2022-03-20 09:43:39] Bundle org.eclipse.oomph.setup 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:43:39] Bundle org.eclipse.oomph.setup.core 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:43:39] Bundle org.eclipse.oomph.setup.p2 1.18.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:43:39] Performing P2 Director (Eclipse IDE for Java Developers (2022-03))
+[2022-03-20 09:43:39] Offline = false
+[2022-03-20 09:43:39] Mirrors = true
+[2022-03-20 09:43:39] Resolving 17 requirements from 3 repositoriesto D:\soft\java\eclipse
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.23.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-03-20 09:43:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-03-20 09:43:39] Repository https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:43:39] Repository https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:43:39] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2022-03-20 09:43:42] Calculating requirements and dependencies.
+[2022-03-20 09:43:42] Computing prerequisite plan
+[2022-03-20 09:43:50] Collecting 1 artifacts from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:43:50] Downloading epp.package.java.executable.win32.win32.x86_64
+[2022-03-20 09:43:50] Collected 1 artifacts for https://download.eclipse.org/technology/epp/packages/2022-03/202203101200 in 0s
+[2022-03-20 09:43:50] Collecting 3 artifacts from https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:43:53] Downloading org.eclipse.platform_root
+[2022-03-20 09:43:53] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2022-03-20 09:43:53] Downloading org.eclipse.rcp_root
+[2022-03-20 09:43:53] Collected 3 artifacts for https://download.eclipse.org/releases/2022-03/202203161000 in 2.447s
+[2022-03-20 09:43:59] An error was detected while performing the engine operation and the changes are being rolled back. See the log for details.
+[2022-03-20 09:43:59] ERROR: org.eclipse.equinox.p2.engine code=4 An error occurred during the org.eclipse.equinox.internal.p2.engine.phases.CheckTrust phase.
+  at org.eclipse.oomph.util.OomphPlugin.coreException(OomphPlugin.java:295)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:558)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+  ERROR: org.eclipse.equinox.p2.engine code=0 session context was:(profile=D__soft_java_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.CheckTrust, operand=, action=).
+  ERROR: org.eclipse.equinox.p2.engine code=0 Error reading signed content.
+  java.io.FileNotFoundException: C:\Users\didshow\.p2\pool\plugins\com.ibm.icu_67.1.0.v20200706-1749.jar (系统找不到指定的文件。)
+    at java.base/java.io.FileInputStream.open0(Native Method)
+    at java.base/java.io.FileInputStream.open(Unknown Source)
+    at java.base/java.io.FileInputStream.<init>(Unknown Source)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.lambda$2(SignedContentFromBundleFile.java:197)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.getSignedEntries(SignedContentFromBundleFile.java:222)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.<init>(SignedContentFromBundleFile.java:192)
+    at org.eclipse.osgi.internal.signedcontent.SignedBundleHook.getSignedContent(SignedBundleHook.java:170)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.checkCertificates(CertificateChecker.java:162)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.start(CertificateChecker.java:116)
+    at org.eclipse.equinox.internal.p2.engine.phases.CheckTrust.completePhase(CheckTrust.java:64)
+    at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+    at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+    at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+    at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:48)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:554)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+    at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+
+[2022-03-20 09:43:59] 
+[2022-03-20 09:44:01] Executing bootstrap tasks
+[2022-03-20 09:44:01] OpenJDK Runtime Environment 17.0.2+8
+[2022-03-20 09:44:01] Product org.eclipse.products.epp.package.java.2022-03
+[2022-03-20 09:44:01] Bundle org.eclipse.oomph.setup 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:44:01] Bundle org.eclipse.oomph.setup.core 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:44:01] Bundle org.eclipse.oomph.setup.p2 1.18.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:44:01] Performing P2 Director (Eclipse IDE for Java Developers (2022-03))
+[2022-03-20 09:44:01] Offline = false
+[2022-03-20 09:44:01] Mirrors = true
+[2022-03-20 09:44:01] Resolving 17 requirements from 3 repositoriesto D:\soft\java\eclipse
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.23.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-03-20 09:44:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-03-20 09:44:01] Repository https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:44:01] Repository https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:44:01] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2022-03-20 09:44:04] Calculating requirements and dependencies.
+[2022-03-20 09:44:05] Computing prerequisite plan
+[2022-03-20 09:44:11] Collecting 1 artifacts from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:44:11] Downloading epp.package.java.executable.win32.win32.x86_64
+[2022-03-20 09:44:11] Collected 1 artifacts for https://download.eclipse.org/technology/epp/packages/2022-03/202203101200 in 0.008s
+[2022-03-20 09:44:11] Collecting 3 artifacts from https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:44:12] Downloading org.eclipse.rcp_root
+[2022-03-20 09:44:12] Downloading org.eclipse.platform_root
+[2022-03-20 09:44:12] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2022-03-20 09:44:12] Collected 3 artifacts for https://download.eclipse.org/releases/2022-03/202203161000 in 1.243s
+[2022-03-20 09:44:18] An error was detected while performing the engine operation and the changes are being rolled back. See the log for details.
+[2022-03-20 09:44:18] ERROR: org.eclipse.equinox.p2.engine code=4 An error occurred during the org.eclipse.equinox.internal.p2.engine.phases.CheckTrust phase.
+  at org.eclipse.oomph.util.OomphPlugin.coreException(OomphPlugin.java:295)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:558)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+  ERROR: org.eclipse.equinox.p2.engine code=0 session context was:(profile=D__soft_java_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.CheckTrust, operand=, action=).
+  ERROR: org.eclipse.equinox.p2.engine code=0 Error reading signed content.
+  java.io.FileNotFoundException: C:\Users\didshow\.p2\pool\plugins\com.ibm.icu_67.1.0.v20200706-1749.jar (系统找不到指定的文件。)
+    at java.base/java.io.FileInputStream.open0(Native Method)
+    at java.base/java.io.FileInputStream.open(Unknown Source)
+    at java.base/java.io.FileInputStream.<init>(Unknown Source)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.lambda$2(SignedContentFromBundleFile.java:197)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.getSignedEntries(SignedContentFromBundleFile.java:222)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.<init>(SignedContentFromBundleFile.java:192)
+    at org.eclipse.osgi.internal.signedcontent.SignedBundleHook.getSignedContent(SignedBundleHook.java:170)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.checkCertificates(CertificateChecker.java:162)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.start(CertificateChecker.java:116)
+    at org.eclipse.equinox.internal.p2.engine.phases.CheckTrust.completePhase(CheckTrust.java:64)
+    at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+    at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+    at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+    at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:48)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:554)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+    at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+
+[2022-03-20 09:44:18] 
+[2022-03-20 09:44:32] Executing bootstrap tasks
+[2022-03-20 09:44:32] OpenJDK Runtime Environment 17.0.2+8
+[2022-03-20 09:44:32] Product org.eclipse.products.epp.package.java.2022-03
+[2022-03-20 09:44:32] Bundle org.eclipse.oomph.setup 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:44:32] Bundle org.eclipse.oomph.setup.core 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:44:32] Bundle org.eclipse.oomph.setup.p2 1.18.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:44:32] Performing P2 Director (Eclipse IDE for Java Developers (2022-03))
+[2022-03-20 09:44:32] Offline = false
+[2022-03-20 09:44:32] Mirrors = true
+[2022-03-20 09:44:32] Resolving 17 requirements from 3 repositoriesto D:\soft\java\eclipse
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.23.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-03-20 09:44:32] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-03-20 09:44:32] Repository https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:44:32] Repository https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:44:32] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2022-03-20 09:44:35] Calculating requirements and dependencies.
+[2022-03-20 09:44:35] Computing prerequisite plan
+[2022-03-20 09:44:42] Collecting 1 artifacts from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:44:42] Downloading epp.package.java.executable.win32.win32.x86_64
+[2022-03-20 09:44:42] Collected 1 artifacts for https://download.eclipse.org/technology/epp/packages/2022-03/202203101200 in 0s
+[2022-03-20 09:44:42] Collecting 3 artifacts from https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:44:44] Downloading org.eclipse.rcp_root
+[2022-03-20 09:44:44] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2022-03-20 09:44:44] Downloading org.eclipse.platform_root
+[2022-03-20 09:44:44] Collected 3 artifacts for https://download.eclipse.org/releases/2022-03/202203161000 in 1.261s
+[2022-03-20 09:44:50] An error was detected while performing the engine operation and the changes are being rolled back. See the log for details.
+[2022-03-20 09:44:50] ERROR: org.eclipse.equinox.p2.engine code=4 An error occurred during the org.eclipse.equinox.internal.p2.engine.phases.CheckTrust phase.
+  at org.eclipse.oomph.util.OomphPlugin.coreException(OomphPlugin.java:295)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:558)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+  ERROR: org.eclipse.equinox.p2.engine code=0 session context was:(profile=D__soft_java_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.CheckTrust, operand=, action=).
+  ERROR: org.eclipse.equinox.p2.engine code=0 Error reading signed content.
+  java.io.FileNotFoundException: C:\Users\didshow\.p2\pool\plugins\com.ibm.icu_67.1.0.v20200706-1749.jar (系统找不到指定的文件。)
+    at java.base/java.io.FileInputStream.open0(Native Method)
+    at java.base/java.io.FileInputStream.open(Unknown Source)
+    at java.base/java.io.FileInputStream.<init>(Unknown Source)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.lambda$2(SignedContentFromBundleFile.java:197)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.getSignedEntries(SignedContentFromBundleFile.java:222)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.<init>(SignedContentFromBundleFile.java:192)
+    at org.eclipse.osgi.internal.signedcontent.SignedBundleHook.getSignedContent(SignedBundleHook.java:170)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.checkCertificates(CertificateChecker.java:162)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.start(CertificateChecker.java:116)
+    at org.eclipse.equinox.internal.p2.engine.phases.CheckTrust.completePhase(CheckTrust.java:64)
+    at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+    at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+    at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+    at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:48)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:554)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+    at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+
+[2022-03-20 09:44:50] 
+[2022-03-20 09:45:33] Executing bootstrap tasks
+[2022-03-20 09:45:33] OpenJDK Runtime Environment 17.0.2+8
+[2022-03-20 09:45:33] Product org.eclipse.products.epp.package.java.2022-03
+[2022-03-20 09:45:33] Bundle org.eclipse.oomph.setup 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:45:33] Bundle org.eclipse.oomph.setup.core 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:45:33] Bundle org.eclipse.oomph.setup.p2 1.18.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:45:33] Performing P2 Director (Eclipse IDE for Java Developers (2022-03))
+[2022-03-20 09:45:33] Offline = false
+[2022-03-20 09:45:33] Mirrors = true
+[2022-03-20 09:45:33] Resolving 17 requirements from 3 repositoriesto D:\soft\java\eclipse
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.23.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-03-20 09:45:33] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-03-20 09:45:33] Repository https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:45:33] Repository https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:45:33] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2022-03-20 09:45:36] Calculating requirements and dependencies.
+[2022-03-20 09:45:37] Computing prerequisite plan
+[2022-03-20 09:45:44] Collecting 1 artifacts from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:45:44] Downloading epp.package.java.executable.win32.win32.x86_64
+[2022-03-20 09:45:44] Collected 1 artifacts for https://download.eclipse.org/technology/epp/packages/2022-03/202203101200 in 0s
+[2022-03-20 09:45:44] Collecting 3 artifacts from https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:45:47] Downloading org.eclipse.platform_root
+[2022-03-20 09:45:47] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2022-03-20 09:45:47] Downloading org.eclipse.rcp_root
+[2022-03-20 09:45:47] Collected 3 artifacts for https://download.eclipse.org/releases/2022-03/202203161000 in 2.845s
+[2022-03-20 09:45:53] An error was detected while performing the engine operation and the changes are being rolled back. See the log for details.
+[2022-03-20 09:45:53] ERROR: org.eclipse.equinox.p2.engine code=4 An error occurred during the org.eclipse.equinox.internal.p2.engine.phases.CheckTrust phase.
+  at org.eclipse.oomph.util.OomphPlugin.coreException(OomphPlugin.java:295)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:558)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+  ERROR: org.eclipse.equinox.p2.engine code=0 session context was:(profile=D__soft_java_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.CheckTrust, operand=, action=).
+  ERROR: org.eclipse.equinox.p2.engine code=0 Error reading signed content.
+  java.io.FileNotFoundException: C:\Users\didshow\.p2\pool\plugins\com.ibm.icu_67.1.0.v20200706-1749.jar (系统找不到指定的文件。)
+    at java.base/java.io.FileInputStream.open0(Native Method)
+    at java.base/java.io.FileInputStream.open(Unknown Source)
+    at java.base/java.io.FileInputStream.<init>(Unknown Source)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.lambda$2(SignedContentFromBundleFile.java:197)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.getSignedEntries(SignedContentFromBundleFile.java:222)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.<init>(SignedContentFromBundleFile.java:192)
+    at org.eclipse.osgi.internal.signedcontent.SignedBundleHook.getSignedContent(SignedBundleHook.java:170)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.checkCertificates(CertificateChecker.java:162)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.start(CertificateChecker.java:116)
+    at org.eclipse.equinox.internal.p2.engine.phases.CheckTrust.completePhase(CheckTrust.java:64)
+    at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+    at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+    at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+    at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:48)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:554)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+    at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+
+[2022-03-20 09:45:53] 
+[2022-03-20 09:46:14] Executing bootstrap tasks
+[2022-03-20 09:46:14] OpenJDK Runtime Environment 17.0.2+8
+[2022-03-20 09:46:14] Product org.eclipse.products.epp.package.java.2022-03
+[2022-03-20 09:46:14] Bundle org.eclipse.oomph.setup 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:46:14] Bundle org.eclipse.oomph.setup.core 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:46:14] Bundle org.eclipse.oomph.setup.p2 1.18.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:46:14] Performing P2 Director (Eclipse IDE for Java Developers (2022-03))
+[2022-03-20 09:46:14] Offline = false
+[2022-03-20 09:46:14] Mirrors = true
+[2022-03-20 09:46:14] Resolving 17 requirements from 3 repositoriesto D:\soft\java\eclipse
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.23.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-03-20 09:46:14] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-03-20 09:46:14] Repository https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:46:14] Repository https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:46:14] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2022-03-20 09:46:17] Calculating requirements and dependencies.
+[2022-03-20 09:46:17] Computing prerequisite plan
+[2022-03-20 09:46:23] Collecting 1 artifacts from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:46:23] Downloading epp.package.java.executable.win32.win32.x86_64
+[2022-03-20 09:46:23] Collected 1 artifacts for https://download.eclipse.org/technology/epp/packages/2022-03/202203101200 in 0.008s
+[2022-03-20 09:46:23] Collecting 3 artifacts from https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:46:25] Downloading org.eclipse.platform_root
+[2022-03-20 09:46:25] Downloading org.eclipse.rcp_root
+[2022-03-20 09:46:25] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2022-03-20 09:46:25] Collected 3 artifacts for https://download.eclipse.org/releases/2022-03/202203161000 in 1.801s
+[2022-03-20 09:46:31] An error was detected while performing the engine operation and the changes are being rolled back. See the log for details.
+[2022-03-20 09:46:31] ERROR: org.eclipse.equinox.p2.engine code=4 An error occurred during the org.eclipse.equinox.internal.p2.engine.phases.CheckTrust phase.
+  at org.eclipse.oomph.util.OomphPlugin.coreException(OomphPlugin.java:295)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:558)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+  ERROR: org.eclipse.equinox.p2.engine code=0 session context was:(profile=D__soft_java_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.CheckTrust, operand=, action=).
+  ERROR: org.eclipse.equinox.p2.engine code=0 Error reading signed content.
+  java.io.FileNotFoundException: C:\Users\didshow\.p2\pool\plugins\com.ibm.icu_67.1.0.v20200706-1749.jar (系统找不到指定的文件。)
+    at java.base/java.io.FileInputStream.open0(Native Method)
+    at java.base/java.io.FileInputStream.open(Unknown Source)
+    at java.base/java.io.FileInputStream.<init>(Unknown Source)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.lambda$2(SignedContentFromBundleFile.java:197)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.getSignedEntries(SignedContentFromBundleFile.java:222)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.<init>(SignedContentFromBundleFile.java:192)
+    at org.eclipse.osgi.internal.signedcontent.SignedBundleHook.getSignedContent(SignedBundleHook.java:170)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.checkCertificates(CertificateChecker.java:162)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.start(CertificateChecker.java:116)
+    at org.eclipse.equinox.internal.p2.engine.phases.CheckTrust.completePhase(CheckTrust.java:64)
+    at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+    at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+    at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+    at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:48)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:554)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+    at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+
+[2022-03-20 09:46:31] 
+[2022-03-20 09:46:50] Executing bootstrap tasks
+[2022-03-20 09:46:50] OpenJDK Runtime Environment 17.0.2+8
+[2022-03-20 09:46:50] Product org.eclipse.products.epp.package.java.2022-03
+[2022-03-20 09:46:50] Bundle org.eclipse.oomph.setup 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:46:50] Bundle org.eclipse.oomph.setup.core 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:46:50] Bundle org.eclipse.oomph.setup.p2 1.18.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:46:50] Performing P2 Director (Eclipse IDE for Java Developers (2022-03))
+[2022-03-20 09:46:50] Offline = false
+[2022-03-20 09:46:50] Mirrors = true
+[2022-03-20 09:46:50] Resolving 17 requirements from 3 repositoriesto D:\soft\java\eclipse
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.23.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-03-20 09:46:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-03-20 09:46:50] Repository https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:46:50] Repository https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:46:50] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2022-03-20 09:46:54] Calculating requirements and dependencies.
+[2022-03-20 09:46:54] Computing prerequisite plan
+[2022-03-20 09:47:00] Collecting 1 artifacts from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:47:00] Downloading epp.package.java.executable.win32.win32.x86_64
+[2022-03-20 09:47:00] Collected 1 artifacts for https://download.eclipse.org/technology/epp/packages/2022-03/202203101200 in 0s
+[2022-03-20 09:47:00] Collecting 3 artifacts from https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:47:01] Downloading org.eclipse.platform_root
+[2022-03-20 09:47:01] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2022-03-20 09:47:01] Downloading org.eclipse.rcp_root
+[2022-03-20 09:47:01] Collected 3 artifacts for https://download.eclipse.org/releases/2022-03/202203161000 in 1.272s
+[2022-03-20 09:47:07] An error was detected while performing the engine operation and the changes are being rolled back. See the log for details.
+[2022-03-20 09:47:07] ERROR: org.eclipse.equinox.p2.engine code=4 An error occurred during the org.eclipse.equinox.internal.p2.engine.phases.CheckTrust phase.
+  at org.eclipse.oomph.util.OomphPlugin.coreException(OomphPlugin.java:295)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:558)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+  ERROR: org.eclipse.equinox.p2.engine code=0 session context was:(profile=D__soft_java_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.CheckTrust, operand=, action=).
+  ERROR: org.eclipse.equinox.p2.engine code=0 Error reading signed content.
+  java.io.FileNotFoundException: C:\Users\didshow\.p2\pool\plugins\com.ibm.icu_67.1.0.v20200706-1749.jar (系统找不到指定的文件。)
+    at java.base/java.io.FileInputStream.open0(Native Method)
+    at java.base/java.io.FileInputStream.open(Unknown Source)
+    at java.base/java.io.FileInputStream.<init>(Unknown Source)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.lambda$2(SignedContentFromBundleFile.java:197)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.getSignedEntries(SignedContentFromBundleFile.java:222)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.<init>(SignedContentFromBundleFile.java:192)
+    at org.eclipse.osgi.internal.signedcontent.SignedBundleHook.getSignedContent(SignedBundleHook.java:170)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.checkCertificates(CertificateChecker.java:162)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.start(CertificateChecker.java:116)
+    at org.eclipse.equinox.internal.p2.engine.phases.CheckTrust.completePhase(CheckTrust.java:64)
+    at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+    at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+    at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+    at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:48)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:554)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+    at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+
+[2022-03-20 09:47:07] 
+[2022-03-20 09:47:17] Executing bootstrap tasks
+[2022-03-20 09:47:17] OpenJDK Runtime Environment 17.0.2+8
+[2022-03-20 09:47:17] Product org.eclipse.products.epp.package.java.2022-03
+[2022-03-20 09:47:17] Bundle org.eclipse.oomph.setup 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:47:17] Bundle org.eclipse.oomph.setup.core 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:47:17] Bundle org.eclipse.oomph.setup.p2 1.18.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:47:17] Performing P2 Director (Eclipse IDE for Java Developers (2022-03))
+[2022-03-20 09:47:17] Offline = false
+[2022-03-20 09:47:17] Mirrors = true
+[2022-03-20 09:47:17] Resolving 17 requirements from 3 repositoriesto D:\soft\java\eclipse
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.23.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-03-20 09:47:17] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-03-20 09:47:17] Repository https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:47:17] Repository https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:47:17] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2022-03-20 09:47:21] Calculating requirements and dependencies.
+[2022-03-20 09:47:21] Computing prerequisite plan
+[2022-03-20 09:47:30] Collecting 1 artifacts from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:47:30] Downloading epp.package.java.executable.win32.win32.x86_64
+[2022-03-20 09:47:30] Collected 1 artifacts for https://download.eclipse.org/technology/epp/packages/2022-03/202203101200 in 0s
+[2022-03-20 09:47:30] Collecting 3 artifacts from https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:47:31] Downloading org.eclipse.rcp_root
+[2022-03-20 09:47:31] Downloading org.eclipse.platform_root
+[2022-03-20 09:47:31] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2022-03-20 09:47:31] Collected 3 artifacts for https://download.eclipse.org/releases/2022-03/202203161000 in 1.192s
+[2022-03-20 09:47:37] An error was detected while performing the engine operation and the changes are being rolled back. See the log for details.
+[2022-03-20 09:47:37] ERROR: org.eclipse.equinox.p2.engine code=4 An error occurred during the org.eclipse.equinox.internal.p2.engine.phases.CheckTrust phase.
+  at org.eclipse.oomph.util.OomphPlugin.coreException(OomphPlugin.java:295)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:558)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+  ERROR: org.eclipse.equinox.p2.engine code=0 session context was:(profile=D__soft_java_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.CheckTrust, operand=, action=).
+  ERROR: org.eclipse.equinox.p2.engine code=0 Error reading signed content.
+  java.io.FileNotFoundException: C:\Users\didshow\.p2\pool\plugins\com.ibm.icu_67.1.0.v20200706-1749.jar (系统找不到指定的文件。)
+    at java.base/java.io.FileInputStream.open0(Native Method)
+    at java.base/java.io.FileInputStream.open(Unknown Source)
+    at java.base/java.io.FileInputStream.<init>(Unknown Source)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.lambda$2(SignedContentFromBundleFile.java:197)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.getSignedEntries(SignedContentFromBundleFile.java:222)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.<init>(SignedContentFromBundleFile.java:192)
+    at org.eclipse.osgi.internal.signedcontent.SignedBundleHook.getSignedContent(SignedBundleHook.java:170)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.checkCertificates(CertificateChecker.java:162)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.start(CertificateChecker.java:116)
+    at org.eclipse.equinox.internal.p2.engine.phases.CheckTrust.completePhase(CheckTrust.java:64)
+    at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+    at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+    at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+    at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:48)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:554)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+    at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+
+[2022-03-20 09:47:37] 
+[2022-03-20 09:47:40] Executing bootstrap tasks
+[2022-03-20 09:47:40] OpenJDK Runtime Environment 17.0.2+8
+[2022-03-20 09:47:40] Product org.eclipse.products.epp.package.java.2022-03
+[2022-03-20 09:47:40] Bundle org.eclipse.oomph.setup 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:47:40] Bundle org.eclipse.oomph.setup.core 1.23.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:47:40] Bundle org.eclipse.oomph.setup.p2 1.18.0.v20220301-0958, build=5396, branch=0ca218831ae58471d57f6865eb1ac482255de190
+[2022-03-20 09:47:40] Performing P2 Director (Eclipse IDE for Java Developers (2022-03))
+[2022-03-20 09:47:40] Offline = false
+[2022-03-20 09:47:40] Mirrors = true
+[2022-03-20 09:47:40] Resolving 17 requirements from 3 repositoriesto D:\soft\java\eclipse
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.23.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.23.0,5.0.0)
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-03-20 09:47:40] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-03-20 09:47:40] Repository https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:47:40] Repository https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:47:40] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2022-03-20 09:47:44] Calculating requirements and dependencies.
+[2022-03-20 09:47:44] Computing prerequisite plan
+[2022-03-20 09:47:52] Collecting 1 artifacts from https://download.eclipse.org/technology/epp/packages/2022-03/202203101200
+[2022-03-20 09:47:52] Downloading epp.package.java.executable.win32.win32.x86_64
+[2022-03-20 09:47:52] Collected 1 artifacts for https://download.eclipse.org/technology/epp/packages/2022-03/202203101200 in 0s
+[2022-03-20 09:47:52] Collecting 3 artifacts from https://download.eclipse.org/releases/2022-03/202203161000
+[2022-03-20 09:47:53] Downloading org.eclipse.platform_root
+[2022-03-20 09:47:53] Downloading org.eclipse.rcp_root
+[2022-03-20 09:47:53] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2022-03-20 09:47:53] Collected 3 artifacts for https://download.eclipse.org/releases/2022-03/202203161000 in 1.41s
+[2022-03-20 09:47:59] An error was detected while performing the engine operation and the changes are being rolled back. See the log for details.
+[2022-03-20 09:47:59] ERROR: org.eclipse.equinox.p2.engine code=4 An error occurred during the org.eclipse.equinox.internal.p2.engine.phases.CheckTrust phase.
+  at org.eclipse.oomph.util.OomphPlugin.coreException(OomphPlugin.java:295)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:558)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+  ERROR: org.eclipse.equinox.p2.engine code=0 session context was:(profile=D__soft_java_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.CheckTrust, operand=, action=).
+  ERROR: org.eclipse.equinox.p2.engine code=0 Error reading signed content.
+  java.io.FileNotFoundException: C:\Users\didshow\.p2\pool\plugins\com.ibm.icu_67.1.0.v20200706-1749.jar (系统找不到指定的文件。)
+    at java.base/java.io.FileInputStream.open0(Native Method)
+    at java.base/java.io.FileInputStream.open(Unknown Source)
+    at java.base/java.io.FileInputStream.<init>(Unknown Source)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.lambda$2(SignedContentFromBundleFile.java:197)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.getSignedEntries(SignedContentFromBundleFile.java:222)
+    at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.<init>(SignedContentFromBundleFile.java:192)
+    at org.eclipse.osgi.internal.signedcontent.SignedBundleHook.getSignedContent(SignedBundleHook.java:170)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.checkCertificates(CertificateChecker.java:162)
+    at org.eclipse.equinox.internal.p2.engine.phases.CertificateChecker.start(CertificateChecker.java:116)
+    at org.eclipse.equinox.internal.p2.engine.phases.CheckTrust.completePhase(CheckTrust.java:64)
+    at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+    at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+    at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+    at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+    at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:48)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:554)
+    at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:344)
+    at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+    at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+    at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+
+[2022-03-20 09:47:59] 
