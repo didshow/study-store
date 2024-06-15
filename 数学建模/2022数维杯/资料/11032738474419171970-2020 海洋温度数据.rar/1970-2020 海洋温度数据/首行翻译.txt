@@ -1,0 +1,8 @@
+Cruise 巡航代号
+Station 测量站
+Type 类型（不用管）
+Latitude [degrees_north] 北纬
+Longitude [degrees_east] 东经
+PRES [db] 压力
+TEMP [deg C] 温度
+PSAL [psu] 盐度
